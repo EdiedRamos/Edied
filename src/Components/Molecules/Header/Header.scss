@@ -1,0 +1,65 @@
+@import "/src/General/Styles/Colors/colors";
+
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  background-color: $rich-black;
+  border-bottom: 2px solid $gunmetal-100;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  z-index: 1;
+
+  ul {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    li {
+      list-style: none;
+
+      a {
+        display: inline-block;
+        text-decoration: none;
+        color: $mint-cream;
+        padding: 2px;
+        font-size: 1.3rem;
+        border-radius: 8px;
+      }
+
+      a:hover {
+        background-color: $gunmetal-100;
+      }
+
+      a:active {
+        background-color: $gunmetal-100;
+        border: none;
+        transform: translate(0, 2px);
+        transition: none;
+      }
+    }
+  }
+}
+
+.active {
+  border-bottom-color: $paradise-pink;
+  background-color: $gunmetal-100;
+}
+
+@media (min-width: 768px) {
+  header > ul {
+    width: 50%;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 500px) {
+  header > ul > li > a {
+    width: 110px;
+    text-align: center;
+  }
+}
