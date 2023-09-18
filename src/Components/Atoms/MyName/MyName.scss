@@ -1,0 +1,55 @@
+@import "/src/General/Styles/Colors/colors";
+
+#introduce-myself-name {
+  list-style: none;
+  left: 100%;
+  height: 34px;
+  overflow: hidden;
+  margin-top: 0.6rem;
+
+  li {
+    position: relative;
+    text-align: center;
+    animation: shift 4s infinite;
+
+    &:first-child {
+      color: $green-yellow-crayola;
+    }
+
+    &:nth-child(2) {
+      color: $green-yellow-crayola;
+    }
+
+    &:nth-child(2) {
+      color: $green-yellow-crayola;
+    }
+
+    &:nth-child(3) {
+      color: $blue-crayola;
+    }
+
+    &:last-child {
+      color: $rusty-red;
+    }
+  }
+}
+
+// * Animations
+
+@keyframes shift {
+  0% {
+    top: 0;
+  }
+  25% {
+    top: -34px;
+  }
+  50% {
+    top: -68px;
+  }
+  75% {
+    top: -102px;
+  }
+  100% {
+    top: 0;
+  }
+}

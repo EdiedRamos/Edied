@@ -1,9 +1,60 @@
 @import "./Fonts/fonts";
+@import "./Colors/colors";
 
-// initial configuration
+// * initial configuration
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: $source-code-pro;
+}
+
+body {
+  min-height: 100vh;
+  background-color: $rich-black-fogra;
+}
+
+.container {
+  margin: 3rem 6px;
+  padding: 1rem;
+  font-size: 1.6rem;
+  color: $honeydew;
+  background-color: $rich-black;
+}
+
+p {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.border-decoration {
+  border: 2px solid $gunmetal-100;
+  border-radius: 8px;
+}
+
+.spin {
+  background-color: $gunmetal-200;
+}
+
+.spin:hover {
+  background-color: $gunmetal-100;
+  animation: spin 2s infinite;
+}
+
+// * Animations
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+// * Media queries
+
+@media (width >= 768px) {
+  .container {
+    width: 50%;
+    margin: 3rem auto;
+  }
 }
