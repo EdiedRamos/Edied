@@ -27,6 +27,10 @@ export const Router = createBrowserRouter([
         element: <Suspense children={<Contact />} />,
       },
       {
+        path: ROUTE_URLS.ROOT,
+        element: <Navigate to={ROUTE_URLS.HOME} />,
+      },
+      {
         path: ROUTE_URLS.ALL,
         element: <Navigate to={ROUTE_URLS.HOME} />,
       },

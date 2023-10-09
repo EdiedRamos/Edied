@@ -7,7 +7,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: $source-code-pro;
+  font-family: $main-font;
+  font-size: $font-size-2;
 }
 
 body {
@@ -16,15 +17,13 @@ body {
 }
 
 .container {
-  margin: 3rem 6px;
+  margin: 2rem 6px;
   padding: 1rem;
-  font-size: 1.6rem;
   color: $honeydew;
   background-color: $rich-black;
 }
 
 p {
-  font-size: 1.4rem;
   text-align: center;
 }
 
@@ -55,6 +54,6 @@ p {
 @media (width >= 768px) {
   .container {
     width: 50%;
-    margin: 3rem auto;
+    margin: 2rem auto;
   }
 }

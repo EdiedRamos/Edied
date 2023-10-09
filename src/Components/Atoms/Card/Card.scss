@@ -1,6 +1,11 @@
+@import "/src/General/Styles/Colors/_colors.scss";
+
 .card {
-  width: 100px;
+  $size: 70px;
+  width: $size;
+  height: $size;
   padding: 5px;
-  background-color: var(--rich-black);
+  background-color: $rich-black;
   margin: 10px;
+  pointer-events: none;
 }

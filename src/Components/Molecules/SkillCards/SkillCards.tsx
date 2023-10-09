@@ -1,4 +1,4 @@
-import { Card } from "../../Atoms";
+import { BorderContainer, Card } from "../../Atoms";
 import { skillList } from "../../../Data/Skills";
 
 import "./SkillCards.scss";
@@ -7,16 +7,16 @@ export const SkillCards = () => {
   return (
     <section>
       {skillList.map((skill) => (
-        <div>
-          <div className="container border-decoration">
+        <>
+          <BorderContainer>
             <p>{skill.type}</p>
-          </div>
+          </BorderContainer>
           <div className="skillCards-container">
             {skill.content.map(({ image, name }) => (
               <Card key={image} src={image} alt={name} />
             ))}
           </div>
-        </div>
+        </>
       ))}
     </section>
   );

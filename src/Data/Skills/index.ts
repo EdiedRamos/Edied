@@ -11,6 +11,9 @@ import {
   Redux,
   Sass,
   Typescript,
+  Javascript,
+  Html,
+  Css,
 } from "../../Resources/Icons";
 
 export enum skillContext {
@@ -26,6 +29,18 @@ type SkillType = {
 
 const Frontend: SkillType[] = [
   {
+    name: "html",
+    image: Html,
+  },
+  {
+    name: "css",
+    image: Css,
+  },
+  {
+    name: "javascript",
+    image: Javascript,
+  },
+  {
     name: "typescript",
     image: Typescript,
   },
@@ -37,6 +52,7 @@ const Frontend: SkillType[] = [
     name: "redux",
     image: Redux,
   },
+
   {
     name: "sass",
     image: Sass,

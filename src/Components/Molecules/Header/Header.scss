@@ -1,4 +1,5 @@
 @import "/src/General/Styles/Colors/colors";
+@import "/src/General/Styles/Fonts/fonts";
 
 header {
   position: sticky;
@@ -24,9 +25,9 @@ header {
         display: inline-block;
         text-decoration: none;
         color: $mint-cream;
-        padding: 2px;
-        font-size: 1.3rem;
-        border-bottom: 1px solid $rich-black;
+        padding: 5px;
+        font-size: $font-size-3;
+        border-bottom: 2px solid $rich-black;
       }
 
       a:hover {
@@ -43,7 +44,7 @@ header {
 }
 
 .active {
-  border-bottom: 1px solid;
+  border-bottom: 2px solid;
   border-bottom-color: $paradise-pink;
 }
 
