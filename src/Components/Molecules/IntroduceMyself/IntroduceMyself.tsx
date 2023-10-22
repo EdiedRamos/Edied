@@ -1,4 +1,6 @@
-import { BorderContainer, MyFace, MyName } from "../../Atoms";
+import { BorderContainer, MyFace } from "../../Atoms";
+import { Paragraph } from "../../Atoms/Paragraph/Paragraph";
+import { Span } from "../../Atoms/Span/Span";
 
 import "./IntroduceMyself.scss";
 
@@ -6,14 +8,15 @@ export const IntroduceMyself = () => {
   return (
     <BorderContainer>
       <MyFace />
-      <div className="introduce-myself introduce-myself-config">
-        <div id="introcue-myself-greeting">Hi there! I'm</div>
-        <MyName />
-      </div>
-      <p className="introduce-myself-config">
-        Frontend Developer looking for big challenges.
-      </p>
-      <p className="introduce-myself-config">Sometimes I do Backend 🤓.</p>
+      <Paragraph>Hi there! I'm</Paragraph>
+      <Paragraph>
+        <Span color="#fff599">Edied </Span>
+        <Span color="#fff599">Isaías </Span>
+        <Span color="#37f">Ramos </Span>
+        <Span color="#da2f43">Hernández</Span>
+      </Paragraph>
+      <Paragraph>Frontend Developer looking for big challenges.</Paragraph>
+      <Paragraph>Sometimes I do Backend 🤓.</Paragraph>
     </BorderContainer>
   );
 };
