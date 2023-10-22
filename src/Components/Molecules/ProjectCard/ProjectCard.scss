@@ -1,0 +1,61 @@
+@import "/src/General/Styles/Colors/colors";
+
+.project-card-container {
+  width: 300px;
+  height: 400px;
+  margin: 5px;
+  background-color: $rich-black;
+}
+
+.project-icon {
+  width: 55px;
+  height: 55px;
+  padding: 5px;
+}
+
+.project-card-container h3 {
+  color: $blue-crayola;
+  border-bottom: 2px solid $gunmetal-100;
+  text-align: center;
+  padding: 5px;
+}
+
+.project-card-container p {
+  display: flex;
+  align-items: center;
+  overflow: auto;
+  height: 150px;
+  font-size: 1rem;
+  color: $honeydew;
+  padding: 5px;
+  border-bottom: 2px solid $gunmetal-100;
+}
+
+.project-link {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 2px solid $gunmetal-100;
+}
+
+.project-link a {
+  display: flex;
+  margin: 5px 0;
+}
+
+.project-link a:active {
+  border: none;
+  transform: translate(0, 3px);
+}
+
+.project-tech-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 39%;
+  overflow: auto;
+}
+
+.project-tech-container .project-icon {
+  margin: 5px;
+}
