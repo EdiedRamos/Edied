@@ -1,6 +1,6 @@
 import { ProjectCardType } from "../../Types";
 
-import { React, Redux, Css } from "../../Resources/Icons";
+import { React, Redux, Css, ChakraUI, Javascript } from "../../Resources/Icons";
 
 export const projectList: ProjectCardType[] = [
   {
@@ -16,6 +16,30 @@ export const projectList: ProjectCardType[] = [
       {
         name: "redux",
         icon: Redux,
+      },
+      {
+        name: "css",
+        icon: Css,
+      },
+    ],
+  },
+  {
+    title: "Créditos",
+    description: "It's a project for managing doubts",
+    repository: "https://github.com/EdiedRamos/creditos",
+    deployed: "https://creditos.vercel.app/",
+    techList: [
+      {
+        name: "react",
+        icon: React,
+      },
+      {
+        name: "redux",
+        icon: Redux,
+      },
+      {
+        name: "chackra-ui",
+        icon: ChakraUI,
       },
       {
         name: "css",
