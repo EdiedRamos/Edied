@@ -11,7 +11,7 @@ export const MyCv = () => {
       </BorderContainer>
       <div className="cv-container">
         <a
-          href="https://drive.google.com/file/d/1x68ibvCb5sVFW6izLXZnwfV6g1dlXaBG/view?usp=sharing"
+          href="https://drive.google.com/file/d/1TobhMosbFq4LEPs4uo3342GzXgDCmdTK/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
           className="cv-link"
