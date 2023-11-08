@@ -1,6 +1,6 @@
 import { ProjectCardType } from "../../Types";
 
-import { React, Redux, Css, ChakraUI, Javascript } from "../../Resources/Icons";
+import { React, Redux, Css, ChakraUI } from "../../Resources/Icons";
 
 export const projectList: ProjectCardType[] = [
   {
