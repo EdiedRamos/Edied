@@ -1,4 +1,4 @@
-import { ProjectCardType } from "../../Types";
+import type { ProjectCardType } from "../../Types";
 
 import { React, Redux, Css, ChakraUI } from "../../Resources/Icons";
 

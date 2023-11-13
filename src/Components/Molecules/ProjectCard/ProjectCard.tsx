@@ -1,4 +1,4 @@
-import { ProjectCardType } from "../../../Types/";
+import type { ProjectCardType } from "../../../Types/";
 import "./ProjectCard.scss";
 
 import { Git, Server } from "../../../Resources/Icons";
