@@ -7,7 +7,7 @@ export const SkillCards = () => {
   return (
     <section>
       {skillList.map((skill) => (
-        <>
+        <article key={skill.type}>
           <BorderContainer>
             <p>{skill.type}</p>
           </BorderContainer>
@@ -16,7 +16,7 @@ export const SkillCards = () => {
               <Card key={image} src={image} alt={name} />
             ))}
           </div>
-        </>
+        </article>
       ))}
     </section>
   );
