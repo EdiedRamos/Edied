@@ -13,6 +13,8 @@ export { default as Css } from "./css.svg";
 
 export { default as NodeJs } from "./nodejs.svg";
 export { default as Express } from "./expressjs.svg";
+export { default as MySql } from "./mysql.svg";
+export { default as MongoDb } from "./mongodb.svg";
 
 export { default as Java } from "./java.svg";
 export { default as Cpp } from "./cpp.svg";

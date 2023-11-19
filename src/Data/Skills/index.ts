@@ -14,6 +14,8 @@ import {
   Javascript,
   Html,
   Css,
+  MySql,
+  MongoDb,
 } from "../../Resources/Icons";
 
 export enum skillContext {
@@ -79,6 +81,14 @@ const Backend: SkillType[] = [
   {
     name: "express",
     image: Express,
+  },
+  {
+    name: "mysql",
+    image: MySql,
+  },
+  {
+    name: "mongodb",
+    image: MongoDb,
   },
 ];
 
