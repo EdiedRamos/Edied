@@ -7,10 +7,10 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: $rich-black-fogra;
   user-select: none;
-  background-color: $rich-black;
-  border-bottom: 2px solid $gunmetal-100;
   z-index: 1;
+  margin: 0 auto;
 
   ul {
     padding: 10px;
@@ -27,25 +27,22 @@ header {
         color: $mint-cream;
         padding: 5px;
         font-size: $font-size-3;
-        border-bottom: 2px solid $rich-black;
       }
 
       a:hover {
-        background-color: $gunmetal-100;
-      }
-
-      a:active {
-        border: none;
-        transform: translate(0, 2px);
-        transition: none;
+        background-color: $gunmetal-300;
+        border: 2px solid $honeydew;
       }
     }
   }
 }
 
 .active {
-  border-bottom: 2px solid;
-  border-bottom-color: $paradise-pink;
+  // border-bottom: 2px solid;
+  // border-top: 2px solid;
+  border: 2px solid;
+  background-color: $rusty-red !important;
+  border-color: $paradise-pink;
 }
 
 @media (min-width: 500px) {
