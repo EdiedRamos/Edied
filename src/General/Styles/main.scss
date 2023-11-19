@@ -29,15 +29,10 @@ p {
 
 .border-decoration {
   border: 2px solid $gunmetal-100;
-  border-radius: 8px;
-}
-
-.spin {
-  background-color: $gunmetal-200;
+  border-radius: 16px;
 }
 
 .spin:hover {
-  background-color: $gunmetal-100;
   animation: spin 2s infinite;
 }
 

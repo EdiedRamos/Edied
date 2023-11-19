@@ -25,24 +25,20 @@ header {
         display: inline-block;
         text-decoration: none;
         color: $mint-cream;
-        padding: 5px;
+        padding: 10px;
         font-size: $font-size-3;
+        border-radius: 4px;
       }
 
       a:hover {
         background-color: $gunmetal-300;
-        border: 2px solid $honeydew;
       }
     }
   }
 }
 
 .active {
-  // border-bottom: 2px solid;
-  // border-top: 2px solid;
-  border: 2px solid;
   background-color: $rusty-red !important;
-  border-color: $paradise-pink;
 }
 
 @media (min-width: 500px) {

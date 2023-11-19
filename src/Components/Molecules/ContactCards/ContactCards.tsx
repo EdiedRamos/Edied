@@ -6,7 +6,7 @@ export const ContactCards = () => {
     <div className="skillCards-container">
       {contactList.map(({ name, href, icon }) => (
         <a key={name} href={href} target="_blank" rel="noreferrer">
-          <Card spin={true} key={name} src={icon} alt={name} />
+          <Card spin key={name} src={icon} alt={name} />
         </a>
       ))}
     </div>
