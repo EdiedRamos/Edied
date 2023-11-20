@@ -6,6 +6,8 @@ export const MyFace = () => {
   return (
     <div id="my-face-container">
       <img
+        width="250"
+        height="240"
         id="my-face"
         className="border-decoration"
         src={Profile}
