@@ -1,9 +1,10 @@
 #my-face {
-  width: 250px;
+  max-width: 100%;
 }
 
 #my-face-container {
-  display: flex;
-  justify-content: center;
+  width: 250px;
+  height: 240px;
+  margin: 0 auto;
   margin-bottom: 1rem;
 }
