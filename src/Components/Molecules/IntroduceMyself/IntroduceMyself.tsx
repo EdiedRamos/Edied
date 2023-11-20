@@ -10,10 +10,10 @@ export const IntroduceMyself = () => {
       <MyFace />
       <Paragraph>Hi there! I'm</Paragraph>
       <Paragraph>
-        <Span color="#ffb74d">Edied </Span>
-        <Span color="#ffb74d">Isaías </Span>
-        <Span color="#0288d1">Ramos </Span>
-        <Span color="#d32f2f">Hernández</Span>
+        <Span color="#FFD494">Edied </Span>
+        <Span color="#FFD494">Isaías </Span>
+        <Span color="#1CAEFD">Ramos </Span>
+        <Span color="#F9847B">Hernández</Span>
       </Paragraph>
       <Paragraph>Frontend Developer looking for big challenges.</Paragraph>
       <Paragraph>Sometimes I do Backend 🤓.</Paragraph>
