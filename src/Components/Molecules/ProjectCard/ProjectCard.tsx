@@ -12,7 +12,9 @@ export const ProjectCard = ({
 }: ProjectCardType) => {
   return (
     <div className="project-card-container border-decoration">
-      <h3>{title}</h3>
+      <div className="project-card-container__header">
+        <h3>{title}</h3>
+      </div>
       <p>{description}</p>
       <div className="project-link">
         <a
@@ -21,7 +23,7 @@ export const ProjectCard = ({
           rel="noreferrer"
           className="border-decoration spin"
         >
-          <img className="project-icon" src={Git} alt="github icon" />
+          <img className="project-icon-redirect" src={Git} alt="github icon" />
         </a>
         <a
           href={deployed}
@@ -29,7 +31,11 @@ export const ProjectCard = ({
           rel="noreferrer"
           className="border-decoration spin"
         >
-          <img className="project-icon" src={Server} alt="server icon" />
+          <img
+            className="project-icon-redirect"
+            src={Server}
+            alt="server icon"
+          />
         </a>
       </div>
       <div className="project-tech-container">

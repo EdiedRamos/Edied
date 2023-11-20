@@ -4,7 +4,7 @@ import "./Projects.scss";
 
 const Projects = () => {
   return (
-    <div>
+    <div className="projects-page">
       <BorderContainer>
         <p>Here are some of my relevant projects</p>
       </BorderContainer>
