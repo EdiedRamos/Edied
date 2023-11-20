@@ -19,9 +19,8 @@ import {
 } from "../../Resources/Icons";
 
 export enum skillContext {
-  Frontend = "Frontend",
-  Backend = "Backend",
-  Hobby = "Hobby | Algorithms",
+  Languages = "Languages",
+  Tools = "Tools/Frameworks",
 }
 
 type SkillType = {
@@ -29,7 +28,19 @@ type SkillType = {
   image: string;
 };
 
-const Frontend: SkillType[] = [
+const Languages: SkillType[] = [
+  {
+    name: "java",
+    image: Java,
+  },
+  {
+    name: "cpp",
+    image: Cpp,
+  },
+  {
+    name: "python",
+    image: Python,
+  },
   {
     name: "html",
     image: Html,
@@ -46,6 +57,9 @@ const Frontend: SkillType[] = [
     name: "typescript",
     image: Typescript,
   },
+];
+
+const Tools: SkillType[] = [
   {
     name: "react",
     image: React,
@@ -54,26 +68,6 @@ const Frontend: SkillType[] = [
     name: "redux",
     image: Redux,
   },
-
-  {
-    name: "sass",
-    image: Sass,
-  },
-  {
-    name: "chakra",
-    image: ChakraUI,
-  },
-  {
-    name: "bootstrap",
-    image: Bootstrap,
-  },
-  {
-    name: "git",
-    image: Git,
-  },
-];
-
-const Backend: SkillType[] = [
   {
     name: "nodejs",
     image: NodeJs,
@@ -90,34 +84,31 @@ const Backend: SkillType[] = [
     name: "mongodb",
     image: MongoDb,
   },
-];
-
-const Hobby: SkillType[] = [
   {
-    name: "java",
-    image: Java,
+    name: "sass",
+    image: Sass,
   },
   {
-    name: "cpp",
-    image: Cpp,
+    name: "bootstrap",
+    image: Bootstrap,
   },
   {
-    name: "python",
-    image: Python,
+    name: "chakra-ui",
+    image: ChakraUI,
+  },
+  {
+    name: "git",
+    image: Git,
   },
 ];
 
 export const skillList = [
   {
-    type: skillContext.Frontend,
-    content: Frontend,
+    type: skillContext.Languages,
+    content: Languages,
   },
   {
-    type: skillContext.Backend,
-    content: Backend,
-  },
-  {
-    type: skillContext.Hobby,
-    content: Hobby,
+    type: skillContext.Tools,
+    content: Tools,
   },
 ];
