@@ -5,7 +5,7 @@ import { Git, Server } from "../../../Resources/Icons";
 
 export const ProjectCard = ({
   title,
-  description,
+  preview,
   repository,
   deployed,
   techList,
@@ -15,7 +15,9 @@ export const ProjectCard = ({
       <div className="project-card-container__header">
         <h3>{title}</h3>
       </div>
-      <p>{description}</p>
+      <div className="project-card-container__preview">
+        <img src={preview} alt={title} />
+      </div>
       <div className="project-link">
         <a
           href={repository}

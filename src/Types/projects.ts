@@ -5,7 +5,7 @@ type TechListType = {
 
 export type ProjectCardType = {
   title: string;
-  description: string;
+  preview: string;
   repository: string;
   deployed: string;
   techList: TechListType[];

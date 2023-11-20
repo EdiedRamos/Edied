@@ -9,11 +9,21 @@ import {
   Sass,
   Typescript,
 } from "../../Resources/Icons";
+import {
+  AdviceGenerator,
+  CountryListing,
+  Creditos,
+  ExpensesChart,
+  FourCardFeatureSection,
+  JobListing,
+  NotificationPage,
+  SinglePrice,
+} from "../../Resources/Projects";
 
 export const projectList: ProjectCardType[] = [
   {
     title: "Countries",
-    description: "It's a project made for FrontendMentor challenges.",
+    preview: CountryListing,
     repository: "https://github.com/EdiedRamos/countries",
     deployed: "https://countries-two-rho.vercel.app/",
     techList: [
@@ -33,7 +43,7 @@ export const projectList: ProjectCardType[] = [
   },
   {
     title: "Créditos",
-    description: "It's a project for managing doubts",
+    preview: Creditos,
     repository: "https://github.com/EdiedRamos/creditos",
     deployed: "https://creditos.vercel.app/",
     techList: [
@@ -57,7 +67,7 @@ export const projectList: ProjectCardType[] = [
   },
   {
     title: "Job listings with filtering",
-    description: "Frontend mentor challenge",
+    preview: JobListing,
     repository: "https://github.com/EdiedRamos/joblistings",
     deployed: "https://joblistings-pi.vercel.app/",
     techList: [
@@ -77,7 +87,7 @@ export const projectList: ProjectCardType[] = [
   },
   {
     title: "Advice generator app",
-    description: "Frontend mentor challenge",
+    preview: AdviceGenerator,
     repository: "https://github.com/EdiedRamos/advice-generator-app",
     deployed: "https://advice-generator-app-zeta-one.vercel.app/",
     techList: [
@@ -97,7 +107,7 @@ export const projectList: ProjectCardType[] = [
   },
   {
     title: "Notifications page",
-    description: "Frontend mentor challenge",
+    preview: NotificationPage,
     repository: "https://github.com/EdiedRamos/notification-page",
     deployed: "https://notification-page-orpin.vercel.app/",
     techList: [
@@ -117,7 +127,7 @@ export const projectList: ProjectCardType[] = [
   },
   {
     title: "Expenses Chart Component",
-    description: "Frontend mentor challenge",
+    preview: ExpensesChart,
     repository: "https://github.com/EdiedRamos/expenses-chart-component",
     deployed: "https://expenses-chart-component-ecru.vercel.app/",
     techList: [
@@ -137,7 +147,7 @@ export const projectList: ProjectCardType[] = [
   },
   {
     title: "Four Card Feature Section",
-    description: "Frontend mentor challenge",
+    preview: FourCardFeatureSection,
     repository: "https://github.com/EdiedRamos/four-card-feature-section",
     deployed: "https://ediedramos.github.io/four-card-feature-section/",
     techList: [
@@ -153,7 +163,7 @@ export const projectList: ProjectCardType[] = [
   },
   {
     title: "Single Price Grid Component",
-    description: "Frontend mentor challenge",
+    preview: SinglePrice,
     repository: "https://github.com/EdiedRamos/single-price-grid-component",
     deployed: "https://single-price-grid-component-six-eta.vercel.app/",
     techList: [
