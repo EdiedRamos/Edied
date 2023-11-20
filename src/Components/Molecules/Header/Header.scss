@@ -27,7 +27,7 @@ header {
         color: $mint-cream;
         padding: 10px;
         font-size: $font-size-3;
-        border-radius: 4px;
+        border-radius: 5px;
       }
 
       a:hover {
@@ -38,7 +38,7 @@ header {
 }
 
 .active {
-  background-color: $rusty-red !important;
+  color: $azure;
 }
 
 @media (min-width: 500px) {
