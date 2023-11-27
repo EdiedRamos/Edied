@@ -16,6 +16,7 @@ import {
   Css,
   MySql,
   MongoDb,
+  StyledComponents,
 } from "../../Resources/Icons";
 
 export enum skillContext {
@@ -29,18 +30,6 @@ type SkillType = {
 };
 
 const Languages: SkillType[] = [
-  {
-    name: "java",
-    image: Java,
-  },
-  {
-    name: "cpp",
-    image: Cpp,
-  },
-  {
-    name: "python",
-    image: Python,
-  },
   {
     name: "html",
     image: Html,
@@ -57,6 +46,18 @@ const Languages: SkillType[] = [
     name: "typescript",
     image: Typescript,
   },
+  {
+    name: "java",
+    image: Java,
+  },
+  {
+    name: "cpp",
+    image: Cpp,
+  },
+  {
+    name: "python",
+    image: Python,
+  },
 ];
 
 const Tools: SkillType[] = [
@@ -67,6 +68,22 @@ const Tools: SkillType[] = [
   {
     name: "redux",
     image: Redux,
+  },
+  {
+    name: "sass",
+    image: Sass,
+  },
+  {
+    name: "styled-components",
+    image: StyledComponents,
+  },
+  {
+    name: "bootstrap",
+    image: Bootstrap,
+  },
+  {
+    name: "chakra-ui",
+    image: ChakraUI,
   },
   {
     name: "nodejs",
@@ -84,18 +101,7 @@ const Tools: SkillType[] = [
     name: "mongodb",
     image: MongoDb,
   },
-  {
-    name: "sass",
-    image: Sass,
-  },
-  {
-    name: "bootstrap",
-    image: Bootstrap,
-  },
-  {
-    name: "chakra-ui",
-    image: ChakraUI,
-  },
+
   {
     name: "git",
     image: Git,
