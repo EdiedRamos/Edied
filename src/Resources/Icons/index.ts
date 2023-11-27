@@ -10,6 +10,7 @@ export { default as Bootstrap } from "./bootstrap.svg";
 export { default as React } from "./react.svg";
 export { default as Html } from "./html.svg";
 export { default as Css } from "./css.svg";
+export { default as StyledComponents } from "./styled-components.webp";
 
 export { default as NodeJs } from "./nodejs.svg";
 export { default as Express } from "./expressjs.svg";

@@ -8,6 +8,7 @@ import {
   Html,
   Sass,
   Typescript,
+  StyledComponents,
 } from "../../Resources/Icons";
 import {
   AdviceGenerator,
@@ -15,6 +16,7 @@ import {
   Creditos,
   ExpensesChart,
   FourCardFeatureSection,
+  IpTracker,
   JobListing,
   NotificationPage,
   SinglePrice,
@@ -38,6 +40,26 @@ export const projectList: ProjectCardType[] = [
       {
         name: "css",
         icon: Css,
+      },
+    ],
+  },
+  {
+    title: "IP Tracker",
+    preview: IpTracker,
+    repository: "https://github.com/EdiedRamos/ip-address-tracker",
+    deployed: "https://ip-address-tracker-zeta-flame.vercel.app/",
+    techList: [
+      {
+        name: "react",
+        icon: React,
+      },
+      {
+        name: "styled",
+        icon: StyledComponents,
+      },
+      {
+        name: "typescript",
+        icon: Typescript,
       },
     ],
   },
