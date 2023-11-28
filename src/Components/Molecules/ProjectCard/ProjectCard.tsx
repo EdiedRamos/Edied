@@ -15,10 +15,14 @@ export const ProjectCard = ({
   return (
     <div className="project-card-container border-decoration">
       <div className="project-card-container__header">
-        <h3>{title}</h3>
+        <a href={deployed} target="_blank">
+          <h3>{title}</h3>
+        </a>
       </div>
       <div className="project-card-container__preview">
-        <img src={preview} alt={title} />
+        <a href={deployed} target="_blank">
+          <img src={preview} alt={title} />
+        </a>
       </div>
       <div className="project-link">
         <IconLink repository={repository} imgName="github" imgSrc={Git} />
