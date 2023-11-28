@@ -4,7 +4,7 @@ import {
   React,
   Redux,
   Css,
-  ChakraUI,
+  // ChakraUI,
   Html,
   Sass,
   Typescript,
@@ -13,7 +13,7 @@ import {
 import {
   AdviceGenerator,
   CountryListing,
-  Creditos,
+  // Creditos,
   ExpensesChart,
   FourCardFeatureSection,
   IpTracker,
@@ -63,30 +63,30 @@ export const projectList: ProjectCardType[] = [
       },
     ],
   },
-  {
-    title: "Créditos",
-    preview: Creditos,
-    repository: "https://github.com/EdiedRamos/creditos",
-    deployed: "https://creditos.vercel.app/",
-    techList: [
-      {
-        name: "react",
-        icon: React,
-      },
-      {
-        name: "redux",
-        icon: Redux,
-      },
-      {
-        name: "chackra-ui",
-        icon: ChakraUI,
-      },
-      {
-        name: "css",
-        icon: Css,
-      },
-    ],
-  },
+  // {
+  //   title: "Créditos",
+  //   preview: Creditos,
+  //   repository: "https://github.com/EdiedRamos/creditos",
+  //   deployed: "https://creditos.vercel.app/",
+  //   techList: [
+  //     {
+  //       name: "react",
+  //       icon: React,
+  //     },
+  //     {
+  //       name: "redux",
+  //       icon: Redux,
+  //     },
+  //     {
+  //       name: "chackra-ui",
+  //       icon: ChakraUI,
+  //     },
+  //     {
+  //       name: "css",
+  //       icon: Css,
+  //     },
+  //   ],
+  // },
   {
     title: "Job listings with filtering",
     preview: JobListing,
