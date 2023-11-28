@@ -1,4 +1,4 @@
-type TechListType = {
+export type TechListType = {
   name: string;
   icon: string;
 };
