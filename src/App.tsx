@@ -1,9 +1,7 @@
-import { RouterProvider } from "react-router-dom";
-
-import { Router } from "./Routes/Router";
+import { Portfolio } from "./Components/Layouts";
 
 const App = () => {
-  return <RouterProvider router={Router} />;
+  return <Portfolio />;
 };
 
 export default App;

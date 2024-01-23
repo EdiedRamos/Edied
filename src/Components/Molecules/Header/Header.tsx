@@ -1,5 +1,3 @@
-import { NavLink } from "react-router-dom";
-
 import { headerData } from "../../../Data/Header/header.data";
 
 import "./Header.scss";
@@ -10,9 +8,9 @@ export const Header = () => {
       <ul>
         {headerData.map(({ id, name, redirect }) => (
           <li key={id}>
-            <NavLink title={name} to={redirect}>
+            <a title={name} href={`#${redirect}`}>
               {name}
-            </NavLink>
+            </a>
           </li>
         ))}
       </ul>
