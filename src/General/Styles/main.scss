@@ -9,6 +9,7 @@
   box-sizing: border-box;
   font-family: $main-font;
   font-size: $font-size-2;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -19,7 +20,7 @@ body {
 .container {
   margin: 2rem 6px;
   padding: 1rem;
-  color: $honeydew;
+  color: $light-blue-50;
   background-color: $rich-black;
 }
 
@@ -37,6 +38,17 @@ p {
 
 .spin:hover {
   animation: spin 2s infinite;
+}
+
+// * Text
+.bold {
+  color: $blue-crayola;
+  font-weight: bold;
+}
+
+// * Font sizes
+.fs-lg {
+  font-size: 1.5rem;
 }
 
 // * Animations

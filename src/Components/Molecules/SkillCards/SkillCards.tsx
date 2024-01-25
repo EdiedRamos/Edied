@@ -8,7 +8,7 @@ export const SkillCards = () => {
     <section>
       {skillList.map((skill) => (
         <article key={skill.type}>
-          <BorderContainer>
+          <BorderContainer isTitle>
             <p>{skill.type}</p>
           </BorderContainer>
           <div className="skillCards-container">

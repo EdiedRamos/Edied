@@ -1,12 +1,14 @@
 import { ROUTE_URLS } from "../../../Domain/Constants/urls";
-import { ContactText } from "../../Atoms";
+import { BorderContainer } from "../../Atoms";
 import { ContactCards, MyCv } from "../../Molecules";
 import "./Contact.scss";
 
 const Contact = () => {
   return (
     <section id={ROUTE_URLS.CONTACT}>
-      <ContactText />
+      <BorderContainer isTitle>
+        <p>Contact me</p>
+      </BorderContainer>
       <ContactCards />
       <MyCv />
     </section>

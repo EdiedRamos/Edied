@@ -24,14 +24,19 @@ header {
       a {
         display: inline-block;
         text-decoration: none;
-        color: $mint-cream;
+        // color: $light-blue-50;
+        color: $indigo-600;
         padding: 10px;
         font-size: $font-size-3;
         border-radius: 5px;
-      }
 
-      a:hover {
-        background-color: $gunmetal-300;
+        &:hover {
+          background-color: $gunmetal-300;
+        }
+
+        &:active {
+          transform: scale(1.1);
+        }
       }
     }
   }

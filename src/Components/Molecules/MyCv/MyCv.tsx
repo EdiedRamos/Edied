@@ -6,8 +6,8 @@ import "./MyCv.scss";
 export const MyCv = () => {
   return (
     <>
-      <BorderContainer>
-        <p>Here you can check my CV</p>
+      <BorderContainer isTitle>
+        <p>My CV</p>
       </BorderContainer>
       <div className="cv-container">
         <a

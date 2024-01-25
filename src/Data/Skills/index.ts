@@ -20,8 +20,8 @@ import {
 } from "../../Resources/Icons";
 
 export enum skillContext {
-  Languages = "Languages",
-  Tools = "Tools/Frameworks",
+  Languages = "Programming Languages",
+  Tools = "Tools / Frameworks",
 }
 
 type SkillType = {

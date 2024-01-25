@@ -6,8 +6,8 @@ import "./Projects.scss";
 const Projects = () => {
   return (
     <section id={ROUTE_URLS.PROJECTS} className="projects-page">
-      <BorderContainer>
-        <p>Here are some of my relevant projects</p>
+      <BorderContainer isTitle>
+        <p>My projects</p>
       </BorderContainer>
       <ProjectCards />
     </section>
