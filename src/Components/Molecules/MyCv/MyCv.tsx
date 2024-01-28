@@ -7,11 +7,11 @@ export const MyCv = () => {
   return (
     <>
       <BorderContainer isTitle>
-        <p>My CV</p>
+        <p>Hoja de vida</p>
       </BorderContainer>
       <div className="cv-container">
         <a
-          href="https://drive.google.com/file/d/1yzXV7MhT7ODfvyEZeyJebo2qzC4GayZF/view?usp=sharing"
+          href="https://drive.google.com/file/d/1DMispnqd7DYcajyh4q9FLwSxaZVaZrdn/view?usp=drive_link"
           target="_blank"
           rel="noreferrer"
           className="cv-link"

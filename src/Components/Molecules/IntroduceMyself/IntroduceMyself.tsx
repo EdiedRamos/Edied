@@ -9,9 +9,12 @@ export const IntroduceMyself = () => {
     <BorderContainer>
       <MyFace />
       <Paragraph>
-        Hi, I'm <Span color="#FFD494">Edied </Span>{" "}
+        Hola, soy <Span color="#FFD494">Edied </Span>{" "}
         <Span color="#FFD494">Isaías </Span> <Span color="#1CAEFD">Ramos </Span>{" "}
-        <Span color="#F9847B">Hernández</Span>, Web Developer based in Colombia
+        <Span color="#F9847B">Hernández</Span>, apasionado por el frontend, mi
+        misión es dar vida a experiencias digitales excepcionales. Con
+        especialización en React, transformo conceptos en interfaces atractivas,
+        optimizadas y listas para cautivar a los usuarios.
       </Paragraph>
     </BorderContainer>
   );

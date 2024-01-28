@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <section id={ROUTE_URLS.CONTACT}>
       <BorderContainer isTitle>
-        <p>Contact me</p>
+        <p>Contacto</p>
       </BorderContainer>
       <ContactCards />
       <MyCv />

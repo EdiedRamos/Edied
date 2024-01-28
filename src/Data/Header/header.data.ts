@@ -4,17 +4,17 @@ import { HeaderItem } from "../../Interfaces";
 export const headerData: HeaderItem[] = [
   {
     id: 1,
-    name: "Home",
+    name: "Inicio",
     redirect: ROUTE_URLS.HOME,
   },
   {
     id: 2,
-    name: "Projects",
+    name: "Proyectos",
     redirect: ROUTE_URLS.PROJECTS,
   },
   {
     id: 3,
-    name: "Contact",
+    name: "Contacto",
     redirect: ROUTE_URLS.CONTACT,
   },
 ];

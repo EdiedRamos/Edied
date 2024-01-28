@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <section id={ROUTE_URLS.PROJECTS} className="projects-page">
       <BorderContainer isTitle>
-        <p>My projects</p>
+        <p>Mis proyectos</p>
       </BorderContainer>
       <ProjectCards />
     </section>
