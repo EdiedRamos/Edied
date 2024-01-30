@@ -1,4 +1,4 @@
-import { Home, Projects, Contact } from "../../Pages";
+import { Home, Projects, Contact, Skills } from "../../Pages";
 
 import { Header } from "../../Molecules";
 
@@ -7,6 +7,7 @@ const Portfolio = (): JSX.Element => {
     <main style={{ marginBottom: "2rem" }}>
       <Header />
       <Home />
+      <Skills />
       <Projects />
       <Contact />
     </main>

@@ -3,5 +3,6 @@ export const ROUTE_URLS = {
   HOME: "/home",
   PROJECTS: "/projects",
   CONTACT: "/contact",
+  SKILLS: "/skills",
   ALL: "*",
 };

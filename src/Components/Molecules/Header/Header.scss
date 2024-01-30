@@ -1,41 +1,81 @@
 @import "/src/General/Styles/Colors/colors";
 @import "/src/General/Styles/Fonts/fonts";
 
-header {
+.header {
+  // ! dev styles
+  $testing-color: $gunmetal-300;
+  border: 2px solid $testing-color;
+  background-color: $testing-color;
+  // backdrop-filter: blur(50px);
+
+  border-radius: 0 0 10px 10px;
+
+  width: 350px;
+
   position: sticky;
   top: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: $rich-black-fogra;
-  user-select: none;
-  z-index: 1;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  z-index: 999;
 
-  ul {
+  &__list {
+    // ! Dev styles
+    // border: 1px solid lime;
+
     padding: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 10px;
     width: 100%;
 
-    li {
+    &__item {
+      // ! Dev styles
+      // border: 1px solid gold;
+
+      display: flex;
+
       list-style: none;
 
-      a {
-        display: inline-block;
-        text-decoration: none;
-        // color: $light-blue-50;
-        color: $indigo-600;
-        padding: 10px;
-        font-size: $font-size-3;
-        border-radius: 5px;
+      &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
-        &:hover {
-          background-color: $gunmetal-300;
+        a {
+          text-decoration: none;
+          // color: $light-blue-50;
+          border-radius: 5px;
+          transition: all 200ms;
+
+          &:hover {
+            transform: scale(0.8);
+          }
+
+          &:active {
+            transform: scale(1.1);
+          }
+
+          img {
+            background-color: $testing-color;
+            padding: 5px;
+            border-radius: 13px;
+            width: 45px;
+            height: 45px;
+
+            -webkit-user-drag: none;
+          }
         }
 
-        &:active {
-          transform: scale(1.1);
+        // * icon text
+        p {
+          // color: $indigo-600;
+          font-size: $font-size-5;
+          // ! Dev styles
+          color: white;
+          background-color: $testing-color;
+          padding: 2px;
+          // border: 1px solid;
         }
       }
     }
@@ -45,6 +85,10 @@ header {
 .active {
   background-color: $gunmetal-300;
   color: $azure;
+}
+
+.animation--jump {
+  animation: jump 500ms 1;
 }
 
 @media (min-width: 500px) {
@@ -58,5 +102,17 @@ header {
   header > ul {
     width: 50%;
     justify-content: space-around;
+  }
+}
+
+@keyframes jump {
+  0% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(0, 10px);
+  }
+  100% {
+    transform: translate(0, 0x);
   }
 }

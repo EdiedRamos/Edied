@@ -1,4 +1,4 @@
-import { IntroduceMyself, SkillCards } from "../../Molecules";
+import { IntroduceMyself } from "../../Molecules";
 
 import { ROUTE_URLS } from "../../../Domain/Constants/urls";
 
@@ -8,7 +8,6 @@ const Home = () => {
   return (
     <section id={ROUTE_URLS.HOME} className="home">
       <IntroduceMyself />
-      <SkillCards />
     </section>
   );
 };
