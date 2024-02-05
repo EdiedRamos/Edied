@@ -7,7 +7,6 @@ type SpanType = {
 };
 
 export const Span = ({ children, color = "", className = "" }: SpanType) => {
-  console.log(className);
   return (
     <span className={className} style={{ color }}>
       {children}

@@ -80,8 +80,13 @@
 }
 
 .active {
-  background-color: $gunmetal-300;
-  color: $azure;
+  img {
+    background-color: tomato !important;
+  }
+  p {
+    // color: purple;
+    // background-color: purple;
+  }
 }
 
 .animation--jump {
