@@ -3,6 +3,7 @@
 
 .header {
   // ! dev styles
+  // * Header variables
   $testing-color: $gunmetal-300;
   border: 2px solid $testing-color;
   background-color: $testing-color;
@@ -67,15 +68,11 @@
           }
         }
 
-        // * icon text
+        // * Icon text
         p {
-          // color: $indigo-600;
+          color: $indigo-600;
           font-size: $font-size-5;
-          // ! Dev styles
-          color: white;
           background-color: $testing-color;
-          padding: 2px;
-          // border: 1px solid;
         }
       }
     }
