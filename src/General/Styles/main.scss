@@ -14,14 +14,13 @@
 
 body {
   min-height: 100vh;
-  background-color: $rich-black-fogra;
+  background-color: $gray-900;
 }
 
 .container {
   margin: 2rem 6px;
   padding: 1rem;
-  color: $light-blue-50;
-  background-color: $rich-black;
+  background-color: chocolate;
 }
 
 p {
@@ -30,7 +29,7 @@ p {
 
 .border-decoration {
   $bg-color: rgba(0, 0, 0, 0.15);
-  border: 1px solid $gunmetal-100;
+  border: 1px solid orange;
   box-shadow: 0 1px 1px $bg-color, 0 2px 2px $bg-color, 0 4px 4px $bg-color,
     0 8px 8px $bg-color, 0 16px 16px $bg-color;
   border-radius: 5px;
@@ -42,7 +41,7 @@ p {
 
 // * Text
 .bold {
-  color: $blue-crayola;
+  color: red;
   font-weight: bold;
 }
 

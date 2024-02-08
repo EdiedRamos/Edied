@@ -1,10 +1,10 @@
 @import "/src/General/Styles/Colors/_colors.scss";
 
 .card {
-  $size: 70px;
+  $size: 60px;
   width: $size;
   height: $size;
   padding: 5px;
-  background-color: $rich-black;
+  background-color: peru;
   margin: 10px;
 }

@@ -1,15 +1,9 @@
-import React from "react";
+import { HTMLAttributes } from "react";
 
 type SpanType = {
   children: React.ReactNode;
-  color?: string;
-  className?: string;
-};
+} & HTMLAttributes<HTMLSpanElement>;
 
-export const Span = ({ children, color = "", className = "" }: SpanType) => {
-  return (
-    <span className={className} style={{ color }}>
-      {children}
-    </span>
-  );
+export const Span = ({ children, ...rest }: SpanType) => {
+  return <span {...rest}>{children}</span>;
 };

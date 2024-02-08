@@ -3,12 +3,12 @@
 .project-card-container {
   width: 400px;
   margin: 5px;
-  background-color: $rich-black;
+  background-color: peru;
 
   &__header {
     display: grid;
     place-items: center;
-    border-bottom: 2px solid $gunmetal-100;
+    border-bottom: 2px solid orange;
     height: 65px;
 
     a {
@@ -19,7 +19,7 @@
       }
 
       h3 {
-        color: $azure !important;
+        color: blue !important;
       }
     }
   }
@@ -27,7 +27,7 @@
   &__preview {
     padding: 8px;
     height: 200px;
-    color: $light-blue-50;
+    color: blue;
     overflow: hidden;
 
     img {
@@ -59,7 +59,7 @@
 }
 
 .project-card-container h3 {
-  color: $blue-crayola;
+  color: red;
   text-align: center;
 }
 
@@ -67,7 +67,7 @@
   display: flex;
   justify-content: center;
   gap: 1.5rem;
-  border-bottom: 2px solid $gunmetal-100;
+  border-bottom: 2px solid orange;
   padding: 10px;
 }
 
