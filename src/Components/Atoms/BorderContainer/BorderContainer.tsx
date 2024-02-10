@@ -1,3 +1,5 @@
+import "./BorderContainer.scss";
+
 type PropT = {
   children: React.ReactNode;
   isTitle?: boolean;

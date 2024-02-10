@@ -1,0 +1,12 @@
+.container {
+  margin: 2rem 6px;
+  padding: 1rem;
+  background-color: chocolate;
+}
+
+@media (width >= 768px) {
+  .container {
+    width: 50%;
+    margin: 2rem auto;
+  }
+}

@@ -17,12 +17,6 @@ body {
   background-color: $gray-900;
 }
 
-.container {
-  margin: 2rem 6px;
-  padding: 1rem;
-  background-color: chocolate;
-}
-
 p {
   text-align: center;
 }
@@ -55,14 +49,5 @@ p {
 @keyframes spin {
   to {
     transform: rotate(360deg);
-  }
-}
-
-// * Media queries
-
-@media (width >= 768px) {
-  .container {
-    width: 50%;
-    margin: 2rem auto;
   }
 }
