@@ -1,12 +1,12 @@
-import "./Card.scss";
+import "./Icon.scss";
 
-type CardType = {
+type IconType = {
   src: string;
   alt: string;
   spin?: boolean;
 };
 
-export const Card = ({ src, alt, spin = false }: CardType) => {
+export const Icon = ({ src, alt, spin = false }: IconType) => {
   return (
     <img
       className={`card border-decoration ${spin && "spin"}`}
