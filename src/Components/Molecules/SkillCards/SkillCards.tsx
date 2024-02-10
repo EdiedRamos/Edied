@@ -1,4 +1,4 @@
-import { BorderContainer, Card } from "../../Atoms";
+import { BorderContainer, Icon } from "../../Atoms";
 import { skillList } from "../../../Data/Skills";
 
 import "./SkillCards.scss";
@@ -13,7 +13,7 @@ export const SkillCards = () => {
           </BorderContainer>
           <div className="skillCards-container">
             {skill.content.map(({ image, name }) => (
-              <Card key={image} src={image} alt={name} />
+              <Icon key={image} src={image} alt={name} />
             ))}
           </div>
         </article>

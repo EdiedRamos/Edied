@@ -1,5 +1,5 @@
 import { Cv } from "../../../Resources/Icons";
-import { BorderContainer, Card } from "../../Atoms";
+import { BorderContainer, Icon } from "../../Atoms";
 
 import "./MyCv.scss";
 
@@ -16,7 +16,7 @@ export const MyCv = () => {
           rel="noreferrer"
           className="cv-link"
         >
-          <Card src={Cv} spin alt="cv icon" />
+          <Icon src={Cv} spin alt="cv icon" />
         </a>
       </div>
     </>
