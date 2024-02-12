@@ -1,10 +1,9 @@
-@import "/src/General/Styles/Colors/_colors.scss";
+@import "/src/General/Styles/Colors/colors";
 
 .card {
   $size: 60px;
   width: $size;
   height: $size;
   padding: 5px;
-  background-color: peru;
   margin: 10px;
 }

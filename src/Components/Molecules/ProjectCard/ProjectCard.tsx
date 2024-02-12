@@ -13,7 +13,7 @@ export const ProjectCard = ({
   techList,
 }: ProjectCardType) => {
   return (
-    <div className="project-card-container border-decoration">
+    <div className="project-card-container">
       <div className="project-card-container__header">
         <a href={deployed} target="_blank">
           <h3>{title}</h3>
@@ -24,7 +24,7 @@ export const ProjectCard = ({
           <img src={preview} alt={title} />
         </a>
       </div>
-      <div className="project-link">
+      <div className="project-card-container__link">
         <IconLink repository={repository} imgName="github" imgSrc={Git} />
         <IconLink repository={deployed} imgName="server" imgSrc={Server} />
       </div>

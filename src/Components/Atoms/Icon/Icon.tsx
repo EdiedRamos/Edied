@@ -8,10 +8,6 @@ type IconType = {
 
 export const Icon = ({ src, alt, spin = false }: IconType) => {
   return (
-    <img
-      className={`card border-decoration ${spin && "spin"}`}
-      src={src}
-      alt={`${alt} icon`}
-    />
+    <img className={`card ${spin && "spin"}`} src={src} alt={`${alt} icon`} />
   );
 };

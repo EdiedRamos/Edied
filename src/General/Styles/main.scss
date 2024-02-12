@@ -14,28 +14,23 @@
 
 body {
   min-height: 100vh;
-  background-color: $gray-900;
+  background-image: url("../../Resources/Icons/bg-wave.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 p {
   text-align: center;
 }
 
-.border-decoration {
-  $bg-color: rgba(0, 0, 0, 0.15);
-  border: 1px solid orange;
-  box-shadow: 0 1px 1px $bg-color, 0 2px 2px $bg-color, 0 4px 4px $bg-color,
-    0 8px 8px $bg-color, 0 16px 16px $bg-color;
-  border-radius: 5px;
-}
-
 .spin:hover {
-  animation: spin 2s infinite;
+  animation: spin 3s infinite;
 }
 
 // * Text
 .bold {
-  color: red;
+  color: $gray-50;
   font-weight: bold;
 }
 
@@ -47,7 +42,7 @@ p {
 // * Animations
 
 @keyframes spin {
-  to {
+  50% {
     transform: rotate(360deg);
   }
 }

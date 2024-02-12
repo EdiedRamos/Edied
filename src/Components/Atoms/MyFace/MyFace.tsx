@@ -9,7 +9,6 @@ export const MyFace = () => {
         width="250"
         height="240"
         id="my-face"
-        className="border-decoration"
         src={Profile}
         alt="Edied's Face"
       />

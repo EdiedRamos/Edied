@@ -1,5 +1,7 @@
 import type { TechListType } from "../../../Types/projects";
 
+import "./ProjectTools.scss";
+
 type Props = {
   techList: TechListType[];
 };
@@ -9,7 +11,7 @@ export const ProjectTools = ({ techList }: Props) => {
     <div className="project-tech-container">
       {techList.map((tech) => (
         <img
-          className="project-icon border-decoration"
+          className="project-icon"
           key={tech.name}
           src={tech.icon}
           alt={`${tech} icon`}

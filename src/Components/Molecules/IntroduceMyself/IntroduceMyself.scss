@@ -1,6 +1,8 @@
 @import "/src/General/Styles/Colors/colors";
 
 #about-me {
+  color: $cyan-300;
+
   span:first-child,
   span:nth-child(2) {
     color: $co-yellow;
