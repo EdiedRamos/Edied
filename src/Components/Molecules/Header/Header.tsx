@@ -1,4 +1,4 @@
-import { headerData } from "../../../Data/Header/header.data";
+import { headerData } from "../../../Data/Header";
 
 import "./Header.scss";
 
