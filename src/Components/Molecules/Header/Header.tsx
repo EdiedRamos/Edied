@@ -10,7 +10,7 @@ export const Header = () => {
           <li className="header__list__item" key={id}>
             <div className="header__list__item__container">
               <a title={name} href={`#${redirect}`}>
-                <img src={icon} />
+                <img src={icon} alt="icon" />
               </a>
               <p>{name}</p>
             </div>
