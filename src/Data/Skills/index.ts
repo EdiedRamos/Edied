@@ -1,12 +1,7 @@
 import {
   Bootstrap,
   ChakraUI,
-  Cpp,
-  Express,
   Git,
-  Java,
-  NodeJs,
-  Python,
   React,
   Redux,
   Sass,
@@ -14,13 +9,11 @@ import {
   Javascript,
   Html,
   Css,
-  MySql,
-  MongoDb,
   StyledComponents,
 } from "../../Resources/Icons";
 
 export enum skillContext {
-  Languages = "Lenguajes de programación",
+  Languages = "Lenguajes",
   Tools = "Herramientas",
 }
 
@@ -45,18 +38,6 @@ const Languages: SkillType[] = [
   {
     name: "typescript",
     image: Typescript,
-  },
-  {
-    name: "java",
-    image: Java,
-  },
-  {
-    name: "cpp",
-    image: Cpp,
-  },
-  {
-    name: "python",
-    image: Python,
   },
 ];
 
@@ -85,23 +66,6 @@ const Tools: SkillType[] = [
     name: "chakra-ui",
     image: ChakraUI,
   },
-  {
-    name: "nodejs",
-    image: NodeJs,
-  },
-  {
-    name: "express",
-    image: Express,
-  },
-  {
-    name: "mysql",
-    image: MySql,
-  },
-  {
-    name: "mongodb",
-    image: MongoDb,
-  },
-
   {
     name: "git",
     image: Git,
