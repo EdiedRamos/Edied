@@ -6,9 +6,7 @@
   top: 0;
   margin: 0 auto;
   z-index: 999;
-  border: 2px solid $black-shadow;
-  border-top: none;
-  background: rgba(24, 28, 36, 0.8);
+  background: $gray-shadow-80;
   backdrop-filter: blur(10px);
   border-radius: 0 0 10px 10px;
   max-width: 350px;
@@ -39,7 +37,6 @@
             transform: scale(1.1);
           }
 
-          // * Icon
           img {
             border-radius: 13px;
             width: 35px;
@@ -48,7 +45,6 @@
           }
         }
 
-        // * Icon text
         p {
           font-size: $font-size-5;
           color: $cyan-200;
