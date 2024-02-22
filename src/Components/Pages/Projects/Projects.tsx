@@ -10,6 +10,12 @@ const Projects = () => {
         <p>Mis proyectos</p>
       </BorderContainer>
       <ProjectCards />
+      <BorderContainer>
+        <p style={{ fontStyle: "italic", color: "#fcc39b" }}>
+          Más proyectos en camino.{" "}
+          <span style={{ fontStyle: "normal" }}>😉</span>
+        </p>
+      </BorderContainer>
     </section>
   );
 };
