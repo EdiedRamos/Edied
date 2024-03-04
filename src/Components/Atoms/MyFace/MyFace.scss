@@ -1,12 +1,11 @@
-#my-face {
-  max-width: 100%;
-  // filter: grayscale(100%);
-  -webkit-user-drag: none;
-}
-
 #my-face-container {
   width: 250px;
   height: 240px;
   margin: 0 auto;
   margin-bottom: 1rem;
+  img {
+    max-width: 100%;
+    border-radius: 8px;
+    -webkit-user-drag: none;
+  }
 }
