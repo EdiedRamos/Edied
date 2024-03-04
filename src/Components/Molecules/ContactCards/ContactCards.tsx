@@ -1,5 +1,5 @@
-import { contactList } from "../../../Data/Contact";
-import { Icon } from "../../Atoms";
+import { contactList } from "@/Data/Contact";
+import { Icon } from "@/Components/Atoms";
 
 export const ContactCards = () => {
   return (

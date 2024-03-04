@@ -1,6 +1,7 @@
+import { projectList } from "@/Data/Projects";
+import { ProjectCard } from "@/Components/Molecules";
+
 import "./ProjectCards.scss";
-import { projectList } from "../../../Data/Projects";
-import { ProjectCard } from "../../Molecules/ProjectCard/ProjectCard";
 
 export const ProjectCards = () => {
   return (

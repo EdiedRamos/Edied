@@ -1,6 +1,6 @@
-import { IntroduceMyself } from "../../Molecules";
+import { ROUTE_URLS } from "@/Domain/Constants/urls";
 
-import { ROUTE_URLS } from "../../../Domain/Constants/urls";
+import { IntroduceMyself } from "@/Components/Molecules";
 
 import "./Home.scss";
 

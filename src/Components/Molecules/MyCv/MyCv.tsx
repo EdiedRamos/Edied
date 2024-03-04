@@ -1,5 +1,5 @@
 import { Cv } from "../../../Resources/Icons";
-import { BorderContainer, Icon } from "../../Atoms";
+import { BorderContainer, Icon } from "@/Components/Atoms";
 
 import "./MyCv.scss";
 

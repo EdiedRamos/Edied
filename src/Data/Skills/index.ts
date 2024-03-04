@@ -10,7 +10,7 @@ import {
   Html,
   Css,
   StyledComponents,
-} from "../../Resources/Icons";
+} from "@/Resources/Icons";
 
 export enum skillContext {
   Languages = "Lenguajes",

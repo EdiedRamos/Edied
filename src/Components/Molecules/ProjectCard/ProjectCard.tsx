@@ -1,7 +1,7 @@
-import type { ProjectCardType } from "../../../Types/";
+import type { ProjectCardType } from "@/Types";
 
-import { Git, Server } from "../../../Resources/Icons";
-import { IconLink, ProjectTools } from "../../Atoms";
+import { Git, Server } from "@/Resources/Icons";
+import { IconLink, ProjectTools } from "@/Components/Atoms";
 
 import "./ProjectCard.scss";
 

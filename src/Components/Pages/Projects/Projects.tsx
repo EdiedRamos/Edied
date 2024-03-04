@@ -1,6 +1,8 @@
-import { ROUTE_URLS } from "../../../Domain/Constants/urls";
-import { BorderContainer } from "../../Atoms";
-import { ProjectCards } from "../../Organisms";
+import { ROUTE_URLS } from "@/Domain/Constants/urls";
+
+import { BorderContainer } from "@/Components/Atoms";
+import { ProjectCards } from "@/Components/Organisms";
+
 import "./Projects.scss";
 
 const Projects = () => {

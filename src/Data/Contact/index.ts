@@ -1,4 +1,4 @@
-import { Github, Linkedin, Email } from "../../Resources/Icons";
+import { Github, Linkedin, Email } from "@/Resources/Icons";
 
 type ContactT = {
   name: string;

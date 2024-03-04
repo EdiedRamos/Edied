@@ -1,13 +1,12 @@
-import type { ProjectCardType } from "../../Types";
-
+import type { ProjectCardType } from "@/Types";
 import {
   React,
   Redux,
   Css,
   Typescript,
   StyledComponents,
-} from "../../Resources/Icons";
-import { CountryListing, IpTracker } from "../../Resources/Projects";
+} from "@/Resources/Icons";
+import { CountryListing, IpTracker } from "@/Resources/Projects";
 
 export const projectList: ProjectCardType[] = [
   {

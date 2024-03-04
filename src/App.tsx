@@ -1,4 +1,4 @@
-import { Portfolio } from "./Components/Layouts";
+import { Portfolio } from "@/Components/Layouts";
 
 const App = () => {
   return <Portfolio />;

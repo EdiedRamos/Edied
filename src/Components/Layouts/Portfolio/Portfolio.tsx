@@ -1,6 +1,6 @@
-import { Home, Projects, Contact, Skills } from "../../Pages";
+import { Home, Projects, Contact, Skills } from "@/Components/Pages";
 
-import { Header } from "../../Molecules";
+import { Header } from "@/Components/Molecules";
 
 const Portfolio = (): JSX.Element => {
   return (

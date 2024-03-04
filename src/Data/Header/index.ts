@@ -1,6 +1,6 @@
-import { HeaderItem } from "../../Interfaces";
-import { ROUTE_URLS } from "../../Domain/Constants/urls";
-import { About, Skills, Projects, Contact } from "../../Resources/Icons";
+import { HeaderItem } from "@/Interfaces";
+import { ROUTE_URLS } from "@/Domain/Constants/urls";
+import { About, Skills, Projects, Contact } from "@/Resources/Icons";
 
 export const headerData: HeaderItem[] = [
   {

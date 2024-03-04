@@ -1,5 +1,5 @@
-import { BorderContainer, Icon } from "../../Atoms";
-import { skillList } from "../../../Data/Skills";
+import { skillList } from "@/Data/Skills";
+import { BorderContainer, Icon } from "@/Components/Atoms";
 
 import "./SkillCards.scss";
 

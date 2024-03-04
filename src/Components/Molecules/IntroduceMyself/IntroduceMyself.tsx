@@ -1,6 +1,4 @@
-import { BorderContainer, MyFace } from "../../Atoms";
-import { Paragraph } from "../../Atoms/Paragraph/Paragraph";
-import { Span } from "../../Atoms/Span/Span";
+import { BorderContainer, MyFace, Paragraph, Span } from "@/Components/Atoms";
 
 import "./IntroduceMyself.scss";
 
