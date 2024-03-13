@@ -1,5 +1,5 @@
-@import "/src/General/Styles/Colors/colors";
-@import "/src/General/Styles/Fonts/fonts";
+@import "@/General/Styles/Colors/colors";
+@import "@/General/Styles/Fonts/fonts";
 
 .header {
   position: sticky;
@@ -27,7 +27,9 @@
         align-items: center;
 
         a {
+          -webkit-user-drag: none;
           transition: all 200ms;
+          padding: 3px;
 
           &:hover {
             transform: scale(0.8);
@@ -37,11 +39,10 @@
             transform: scale(1.1);
           }
 
-          img {
-            border-radius: 13px;
-            width: 35px;
-            height: 35px;
-            -webkit-user-drag: none;
+          svg {
+            width: 25px;
+            height: 25px;
+            fill: $cyan-200;
           }
         }
 

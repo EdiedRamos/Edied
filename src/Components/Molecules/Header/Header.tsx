@@ -6,11 +6,11 @@ export const Header = () => {
   return (
     <header className="header">
       <ul className="header__list">
-        {headerData.map(({ id, name, redirect, icon }) => (
+        {headerData.map(({ id, name, redirect, Icon }) => (
           <li className="header__list__item" key={id}>
             <div className="header__list__item__container">
               <a title={name} href={`#${redirect}`}>
-                <img src={icon} alt="icon" />
+                <Icon />
               </a>
               <p>{name}</p>
             </div>

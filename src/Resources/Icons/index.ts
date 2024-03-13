@@ -30,9 +30,3 @@ export { default as Github } from "./github.svg";
 export { default as Email } from "./email.svg";
 export { default as Cv } from "./cv.svg";
 export { default as Server } from "./server.svg";
-
-// * header
-export { default as Contact } from "./contact.webp";
-export { default as Projects } from "./projects.webp";
-export { default as About } from "./about.webp";
-export { default as Skills } from "./skills.webp";
