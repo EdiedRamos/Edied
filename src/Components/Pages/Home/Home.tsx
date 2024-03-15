@@ -6,7 +6,7 @@ import "./Home.scss";
 
 const Home = () => {
   return (
-    <section id={ROUTE_URLS.HOME} className="home">
+    <section id={ROUTE_URLS.HOME} className="home-section">
       <IntroduceMyself />
     </section>
   );

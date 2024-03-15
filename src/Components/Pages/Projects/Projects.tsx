@@ -7,7 +7,7 @@ import "./Projects.scss";
 
 const Projects = () => {
   return (
-    <section id={ROUTE_URLS.PROJECTS} className="projects-page">
+    <section id={ROUTE_URLS.PROJECTS} className="projects-section">
       <BorderContainer isTitle>
         <p>Proyectos</p>
       </BorderContainer>
