@@ -7,6 +7,8 @@ type PropT = {
 
 export const BorderContainer = ({ children, isTitle }: PropT): JSX.Element => {
   return (
-    <div className={`container ${isTitle ? "bold" : null}`}>{children}</div>
+    <div className={`border-container ${isTitle ? "bold" : null}`}>
+      {children}
+    </div>
   );
 };

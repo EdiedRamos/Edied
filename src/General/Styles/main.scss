@@ -1,5 +1,6 @@
 @import "./Fonts/fonts";
 @import "./Colors/colors";
+@import "./Spacing/spacing";
 
 // * initial configuration
 
@@ -27,6 +28,8 @@ p {
 .spin:hover {
   animation: spin 3s infinite;
 }
+
+// * Container
 
 // * Text
 .bold {

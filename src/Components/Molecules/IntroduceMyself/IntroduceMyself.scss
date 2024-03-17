@@ -1,16 +1,67 @@
 @import "/src/General/Styles/Colors/colors";
 
-#about-me {
-  color: $cyan-300;
+// ! WE ARE SOLVING TOP SPACING MOBILE PROBLEMS | CHECK THE HEIGHT AND WIDTH
 
-  span:first-child,
-  span:nth-child(2) {
-    color: $co-yellow;
+.introduce {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  &__text {
+    align-self: center;
+    margin-bottom: 2rem;
+
+    color: $cyan-300;
+
+    p,
+    h1 {
+      text-align: center;
+      color: $gray-300;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+
+    h1 {
+      background-image: linear-gradient(
+        to right,
+        $cyan-200,
+        $cyan-300,
+        $cyan-400,
+        $cyan-500,
+        $cyan-600
+      );
+      background-clip: text;
+      color: transparent;
+      margin-bottom: 1.5rem;
+      font-size: 1.5rem;
+    }
+
+    span {
+      font-size: inherit;
+    }
   }
-  span:nth-child(3) {
-    color: $co-blue;
-  }
-  span:nth-child(4) {
-    color: $co-red;
+}
+
+@media (width >= 992px) {
+  .introduce {
+    grid-template-columns: 60% 40%;
+
+    &__text {
+      margin-bottom: 0;
+
+      p,
+      h1 {
+        text-align: start;
+      }
+
+      p {
+        font-size: 1.2rem;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+      }
+    }
   }
 }

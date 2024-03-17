@@ -1,3 +1,8 @@
 .home-section {
-  padding-top: 4rem;
+  // * new styles
+  min-height: 100vh;
+  display: flex;
+  background: url("/src/Resources/Icons/bg-simply-shiny.svg");
+  // background-size: 100% cover;
+  background-size: cover;
 }

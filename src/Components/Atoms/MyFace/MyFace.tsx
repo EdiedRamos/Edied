@@ -4,7 +4,7 @@ import "./MyFace.scss";
 
 export const MyFace = () => {
   return (
-    <div id="my-face-container">
+    <div className="my-face-container">
       <img width="250" height="240" src={Profile} alt="Edied's Face" />
     </div>
   );

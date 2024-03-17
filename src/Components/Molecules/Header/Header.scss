@@ -4,11 +4,12 @@
 .header {
   position: fixed;
   left: 50%;
+  bottom: 0;
   transform: translateX(-50%);
   z-index: 999;
   background: $gray-shadow-80;
   backdrop-filter: blur(10px);
-  border-radius: 0 0 10px 10px;
+  border-radius: 10px;
   width: 90%;
 
   &__list {
