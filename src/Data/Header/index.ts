@@ -10,7 +10,7 @@ import {
 export const headerData: HeaderItem[] = [
   {
     id: 1,
-    name: "Sobre mi",
+    name: "Sobre mí",
     redirect: ROUTE_URLS.HOME,
     Icon: AboutIcon,
   },

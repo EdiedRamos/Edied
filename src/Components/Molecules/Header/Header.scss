@@ -10,6 +10,7 @@
   background: $gray-shadow-80;
   backdrop-filter: blur(10px);
   border-radius: 10px;
+  border: 2px solid $gray-800;
   width: 90%;
 
   &__list {
@@ -33,23 +34,23 @@
           padding: 3px;
 
           &:hover {
-            transform: scale(0.8);
+            transform: scale(0.8) rotate(-25deg);
           }
 
           &:active {
-            transform: scale(1.1);
+            transform: scale(1.2) rotate(25deg);
           }
 
           svg {
             width: 25px;
             height: 25px;
-            fill: $cyan-200;
+            fill: $cyan-500;
           }
         }
 
         p {
           font-size: $font-size-5;
-          color: $cyan-200;
+          color: $gray-400;
         }
       }
     }
