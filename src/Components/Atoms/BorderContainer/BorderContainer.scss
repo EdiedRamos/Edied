@@ -8,8 +8,10 @@
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 
-  p {
+  p,
+  h2 {
     color: $cyan-200;
+    text-align: center;
   }
 }
 

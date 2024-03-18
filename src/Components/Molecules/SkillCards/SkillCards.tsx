@@ -9,7 +9,7 @@ export const SkillCards = () => {
       {skillList.map((skill) => (
         <article key={skill.type}>
           <BorderContainer isTitle>
-            <p>{skill.type}</p>
+            <h2>{skill.type}</h2>
           </BorderContainer>
           <div className="skillCards-container">
             {skill.content.map(({ image, name }) => (

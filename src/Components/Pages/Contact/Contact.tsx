@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <section id={ROUTE_URLS.CONTACT} className="contact-section">
       <BorderContainer isTitle>
-        <p>Contacto</p>
+        <h2>Contacto</h2>
       </BorderContainer>
       <ContactCards />
       <MyCv />
