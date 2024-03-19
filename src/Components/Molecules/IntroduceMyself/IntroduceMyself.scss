@@ -1,6 +1,5 @@
 @import "/src/General/Styles/Colors/colors";
-
-// ! WE ARE SOLVING TOP SPACING MOBILE PROBLEMS | CHECK THE HEIGHT AND WIDTH
+@import "/src/General/Styles/Fonts/fonts";
 
 .introduce {
   display: grid;
@@ -19,7 +18,7 @@
     }
 
     p {
-      font-size: 1rem;
+      font-size: $font-size-6;
     }
 
     h1 {
@@ -31,10 +30,11 @@
         $cyan-500,
         $cyan-600
       );
+      // text-shadow: 4px 4px $gray-700;
       background-clip: text;
       color: transparent;
       margin-bottom: 1.5rem;
-      font-size: 1.5rem;
+      font-size: $font-size-2;
     }
 
     span {
@@ -56,11 +56,11 @@
       }
 
       p {
-        font-size: 1.2rem;
+        font-size: $font-size-5;
       }
 
       h1 {
-        font-size: 2.5rem;
+        font-size: $font-size-1;
       }
     }
   }

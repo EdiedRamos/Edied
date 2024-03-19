@@ -1,23 +1,13 @@
 @import "../../../General/Styles/Colors/colors";
 
 .border-container {
-  margin: 1rem;
   padding: 1rem;
   border-radius: 8px;
-  background-color: $gray-shadow-70;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background-color: $red-500;
 
   p,
   h2 {
     color: $cyan-200;
     text-align: center;
-  }
-}
-
-@media (width >= 768px) {
-  .border-container {
-    max-width: 700px;
-    margin: 2rem auto;
   }
 }

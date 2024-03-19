@@ -9,17 +9,12 @@
   margin: 0;
   box-sizing: border-box;
   font-family: $main-font;
-  font-size: $font-size-2;
   scroll-behavior: smooth;
 }
 
 body {
   min-height: 100vh;
-  background-image: url("../../Resources/Icons/bg-wave.svg");
   background-color: $gray-900;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 p {
@@ -36,11 +31,6 @@ p {
 .bold {
   color: $gray-50;
   font-weight: bold;
-}
-
-// * Font sizes
-.fs-lg {
-  font-size: 1.5rem;
 }
 
 // * Animations

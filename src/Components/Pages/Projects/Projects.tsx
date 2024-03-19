@@ -1,23 +1,25 @@
 import { ROUTE_URLS } from "@/Domain/Constants/urls";
 
-import { BorderContainer } from "@/Components/Atoms";
+import { Title } from "@/Components/Atoms";
 import { ProjectCards } from "@/Components/Organisms";
-
-import "./Projects.scss";
 
 const Projects = () => {
   return (
-    <section id={ROUTE_URLS.PROJECTS} className="projects-section">
-      <BorderContainer isTitle>
-        <h2>Proyectos</h2>
-      </BorderContainer>
-      <ProjectCards />
-      <BorderContainer>
-        <p style={{ fontStyle: "italic", color: "#fcc39b" }}>
+    <section id={ROUTE_URLS.PROJECTS}>
+      <article className="container" style={{ marginTop: "4rem" }}>
+        <Title>Proyectos</Title>
+        <ProjectCards />
+        <p
+          style={{
+            fontStyle: "italic",
+            color: "#fcc39b",
+            marginTop: "1.2rem",
+          }}
+        >
           Más proyectos en camino.{" "}
           <span style={{ fontStyle: "normal" }}>😉</span>
         </p>
-      </BorderContainer>
+      </article>
     </section>
   );
 };

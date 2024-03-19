@@ -5,8 +5,13 @@ $main-font: "Poppins", sans-serif;
 $main-font: "Martian Mono", monospace;
 
 // * fonts measures
-$font-size-1: 1.5rem;
-$font-size-2: 17px;
-$font-size-3: 15px;
-$font-size-4: 13px;
-$font-size-5: 9px;
+$base: 16px;
+$font-size-1: $base * 2.5;
+$font-size-2: $base * 2;
+$font-size-3: $base * 1.75;
+$font-size-4: $base * 1.5;
+$font-size-5: $base * 1.25;
+$font-size-6: $base;
+$font-size-7: 15px;
+$font-size-8: 13px;
+$font-size-9: 9px;

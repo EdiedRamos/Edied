@@ -1,12 +1,10 @@
-.skillCards-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.skill-container {
+  margin-top: 4rem !important;
 }
 
-@media (min-width: 768px) {
-  .skillCards-container {
-    margin: auto;
-    width: 50%;
-  }
+.skill-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
 }

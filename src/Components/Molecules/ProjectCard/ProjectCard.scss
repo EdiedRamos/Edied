@@ -3,10 +3,9 @@
 .project-card-container {
   width: 400px;
   margin: 5px;
-  background-color: $gray-shadow-70;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background-color: $gray-800;
   border-radius: 8px;
+  border: 2px solid $cyan-800;
 
   &__header {
     display: grid;

@@ -4,7 +4,7 @@ import { Header } from "@/Components/Molecules";
 
 const Portfolio = (): JSX.Element => {
   return (
-    <main style={{ marginBottom: "2rem" }}>
+    <main>
       <Header />
       <Home />
       <Skills />

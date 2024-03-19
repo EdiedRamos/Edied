@@ -1,14 +1,12 @@
 import { Cv } from "../../../Resources/Icons";
-import { BorderContainer, Icon } from "@/Components/Atoms";
+import { Icon, Title } from "@/Components/Atoms";
 
 import "./MyCv.scss";
 
 export const MyCv = () => {
   return (
-    <>
-      <BorderContainer isTitle>
-        <p>Hoja de vida</p>
-      </BorderContainer>
+    <article className="cv-article">
+      <Title>Hoja de vida</Title>
       <div className="cv-container">
         <a
           href="https://drive.google.com/file/d/1p0bLbPE9SRsZeTzCpW9tASgDGHjRrqh2/view?usp=sharing"
@@ -19,6 +17,6 @@ export const MyCv = () => {
           <Icon src={Cv} spin alt="cv icon" />
         </a>
       </div>
-    </>
+    </article>
   );
 };

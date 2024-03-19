@@ -63,7 +63,7 @@ const Tools: SkillType[] = [
     image: Bootstrap,
   },
   {
-    name: "chakra-ui",
+    name: "chakra-UI",
     image: ChakraUI,
   },
   {

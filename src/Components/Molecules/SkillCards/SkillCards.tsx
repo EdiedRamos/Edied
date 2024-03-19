@@ -1,23 +1,21 @@
 import { skillList } from "@/Data/Skills";
-import { BorderContainer, Icon } from "@/Components/Atoms";
+import { Icon, Title } from "@/Components/Atoms";
 
 import "./SkillCards.scss";
 
 export const SkillCards = () => {
   return (
-    <section>
+    <div className="container skill-container">
       {skillList.map((skill) => (
         <article key={skill.type}>
-          <BorderContainer isTitle>
-            <h2>{skill.type}</h2>
-          </BorderContainer>
-          <div className="skillCards-container">
+          <Title>{skill.type}</Title>
+          <div className="skill-cards">
             {skill.content.map(({ image, name }) => (
-              <Icon key={image} src={image} alt={name} />
+              <Icon key={image} src={image} alt={name} value={name} />
             ))}
           </div>
         </article>
       ))}
-    </section>
+    </div>
   );
 };
