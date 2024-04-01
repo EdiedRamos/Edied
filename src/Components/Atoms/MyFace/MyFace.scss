@@ -1,4 +1,5 @@
 @import "@/General/Styles/Colors/colors";
+
 .my-face-container {
   display: flex;
   justify-content: center;
@@ -6,9 +7,8 @@
   img {
     max-width: 100%;
     height: auto;
-    border-radius: 30% 10px 30% 10px;
-    box-shadow: -8px -8px $gray-600;
-    outline: 2px solid $gray-600;
+    border-radius: 50%;
+    outline: 4px solid $red-700;
     -webkit-user-drag: none;
   }
 }

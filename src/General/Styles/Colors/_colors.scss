@@ -13,41 +13,44 @@ $gray-shadow-80: rgba(24, 28, 36, 0.8);
 
 // * NOTE: From color-50 to color-500 the right contrast is with a dark color and from color-600 to color-900 the right contrast is with a light color
 
+// * primary
+$primary: #101217;
+
 // * blue scale
-$blue-50: #f8fcfc;
-$blue-100: #d8e4fc;
-$blue-200: #b0ccfc;
-$blue-300: #88b4fc;
-$blue-400: #689cfc;
-$blue-500: #4084f4;
-$blue-600: #386cd4;
-$blue-700: #305cac;
-$blue-800: #284c84;
-$blue-900: #203464;
+$blue-50: #e6f1fe;
+$blue-100: #cce3fd;
+$blue-200: #99c7fb;
+$blue-300: #66aaf9;
+$blue-400: #338ef7;
+$blue-500: #006fee;
+$blue-600: #005bc4;
+$blue-700: #004493;
+$blue-800: #002e62;
+$blue-900: #001731;
 
 // * cyan scale
-$cyan-50: #f8fcfc;
-$cyan-100: #c8ecf4;
-$cyan-200: #98e4ec;
-$cyan-300: #68d4e4;
-$cyan-400: #38c4dc;
-$cyan-500: #08b4d4;
-$cyan-600: #089cb4;
-$cyan-700: #087c94;
-$cyan-800: #086474;
-$cyan-900: #084c54;
+$cyan-50: #f0fcff;
+$cyan-100: #e6fafe;
+$cyan-200: #d7f8fe;
+$cyan-300: #c3f4fd;
+$cyan-400: #a5eefd;
+$cyan-500: #7ee7fc;
+$cyan-600: #06b7db;
+$cyan-700: #09aacd;
+$cyan-800: #0e8aaa;
+$cyan-900: #053b48;
 
 // * gray scale
-$gray-50: #fffcfc;
-$gray-100: #f8f4f4;
-$gray-200: #e8e4ec;
-$gray-300: #d8d4dc;
-$gray-400: #a0a4ac;
-$gray-500: #707484;
-$gray-600: #505464;
-$gray-700: #384454;
-$gray-800: #202c34;
-$gray-900: #181c24;
+$gray-50: #fafafa;
+$gray-100: #f4f4f5;
+$gray-200: #e4e4e7;
+$gray-300: #d4d4d8;
+$gray-400: #a1a1aa;
+$gray-500: #71717a;
+$gray-600: #52525b;
+$gray-700: #3f3f46;
+$gray-800: #27272a;
+$gray-900: #18181b;
 
 // * indigo scale
 $indigo-50: #f7f7fe;
@@ -60,6 +63,30 @@ $indigo-600: #5457cd;
 $indigo-700: #4547a9;
 $indigo-800: #363885;
 $indigo-900: #282960;
+
+// * purple scale
+$purple-50: #f2eafa;
+$purple-100: #e4d4f4;
+$purple-200: #c9a9e9;
+$purple-300: #ae7ede;
+$purple-400: #9353d3;
+$purple-500: #7828c8;
+$purple-600: #6020a0;
+$purple-700: #481878;
+$purple-800: #301050;
+$purple-900: #180828;
+
+// * green scale
+$green-50: #e8faf0;
+$green-100: #d1f4e0;
+$green-200: #a2e9c1;
+$green-300: #74dfa2;
+$green-400: #74dfa2;
+$green-500: #17c964;
+$green-600: #12a150;
+$green-700: #0e793c;
+$green-800: #095028;
+$green-900: #052814;
 
 // * orange scale
 $orange-50: #fff8f3;
@@ -74,25 +101,25 @@ $orange-800: #893f0c;
 $orange-900: #642e09;
 
 // * red scale
-$red-50: #fff4f4;
-$red-100: #ffd4cc;
-$red-200: #ffaca4;
-$red-300: #ff8484;
-$red-400: #ff645c;
-$red-500: #ff3c34;
-$red-600: #e0342c;
-$red-700: #b82c24;
-$red-800: #90241c;
-$red-900: #681c14;
+$red-50: #fee7ef;
+$red-100: #fdd0df;
+$red-200: #faa0bf;
+$red-300: #f871a0;
+$red-400: #f54180;
+$red-500: #f31260;
+$red-600: #c20e4d;
+$red-700: #920b3a;
+$red-800: #610726;
+$red-900: #310413;
 
 // * yellow scale
-$yellow-50: #fefbf3;
-$yellow-100: #faedc4;
-$yellow-200: #f6de95;
-$yellow-300: #f2d066;
-$yellow-400: #eec137;
-$yellow-500: #eab308;
-$yellow-600: #c79807;
-$yellow-700: #a47d06;
-$yellow-800: #a47d06;
-$yellow-900: #a47d06;
+$yellow-50: #fefce8;
+$yellow-100: #fdedd3;
+$yellow-200: #fbdba7;
+$yellow-300: #f9c97c;
+$yellow-400: #f7b750;
+$yellow-500: #f5a524;
+$yellow-600: #c4841d;
+$yellow-700: #936316;
+$yellow-800: #62420e;
+$yellow-900: #312107;
