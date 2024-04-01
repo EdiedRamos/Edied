@@ -1,14 +1,38 @@
 import type { ProjectCardType } from "@/Types";
+
 import {
+  Css,
+  Html,
+  Javascript,
   React,
   Redux,
-  Css,
-  Typescript,
   StyledComponents,
+  Typescript,
 } from "@/Resources/Icons";
-import { CountryListing, IpTracker } from "@/Resources/Projects";
+
+import { CountryListing, IpTracker, QrGenerator } from "@/Resources/Projects";
 
 export const projectList: ProjectCardType[] = [
+  {
+    title: "QR Generator",
+    preview: QrGenerator,
+    repository: "https://github.com/EdiedRamos/qr-generator",
+    deployed: "https://ediedramos.github.io/qr-generator/",
+    techList: [
+      {
+        name: "html",
+        icon: Html,
+      },
+      {
+        name: "css",
+        icon: Css,
+      },
+      {
+        name: "javascript",
+        icon: Javascript,
+      },
+    ],
+  },
   {
     title: "Countries",
     preview: CountryListing,
