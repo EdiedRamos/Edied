@@ -10,6 +10,11 @@ import {
   Html,
   Css,
   StyledComponents,
+  Java,
+  Cpp,
+  Python,
+  NodeJs,
+  Express,
 } from "@/Resources/Icons";
 
 export enum skillContext {
@@ -38,6 +43,18 @@ const Languages: SkillType[] = [
   {
     name: "typescript",
     image: Typescript,
+  },
+  {
+    name: "java",
+    image: Java,
+  },
+  {
+    name: "c++",
+    image: Cpp,
+  },
+  {
+    name: "python",
+    image: Python,
   },
 ];
 
@@ -69,6 +86,14 @@ const Tools: SkillType[] = [
   {
     name: "git",
     image: Git,
+  },
+  {
+    name: "nodejs",
+    image: NodeJs,
+  },
+  {
+    name: "express",
+    image: Express,
   },
 ];
 
