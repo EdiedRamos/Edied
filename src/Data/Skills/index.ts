@@ -1,21 +1,25 @@
+import type { IconType } from "react-icons";
+
 import {
-  Bootstrap,
-  ChakraUI,
-  Git,
-  React,
-  Redux,
-  Sass,
-  Typescript,
-  Javascript,
-  Html,
-  Css,
-  StyledComponents,
-  Java,
-  Cpp,
-  Python,
-  NodeJs,
-  Express,
-} from "@/Resources/Icons";
+  FaBootstrap,
+  FaCss3,
+  FaGitAlt,
+  FaHtml5,
+  FaJava,
+  FaNodeJs,
+  FaPython,
+  FaReact,
+  FaSass,
+} from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
+import {
+  SiChakraui,
+  SiExpress,
+  SiRedux,
+  SiStyledcomponents,
+  SiTypescript,
+} from "react-icons/si";
+import { TbBrandCpp } from "react-icons/tb";
 
 export enum skillContext {
   Languages = "Lenguajes",
@@ -24,76 +28,76 @@ export enum skillContext {
 
 type SkillType = {
   name: string;
-  image: string;
+  Icon: IconType;
 };
 
 const Languages: SkillType[] = [
   {
     name: "html",
-    image: Html,
+    Icon: FaHtml5,
   },
   {
     name: "css",
-    image: Css,
+    Icon: FaCss3,
   },
   {
     name: "javascript",
-    image: Javascript,
+    Icon: IoLogoJavascript,
   },
   {
     name: "typescript",
-    image: Typescript,
+    Icon: SiTypescript,
   },
   {
     name: "java",
-    image: Java,
+    Icon: FaJava,
   },
   {
     name: "c++",
-    image: Cpp,
+    Icon: TbBrandCpp,
   },
   {
     name: "python",
-    image: Python,
+    Icon: FaPython,
   },
 ];
 
 const Tools: SkillType[] = [
   {
     name: "react",
-    image: React,
+    Icon: FaReact,
   },
   {
     name: "redux",
-    image: Redux,
+    Icon: SiRedux,
   },
   {
     name: "sass",
-    image: Sass,
+    Icon: FaSass,
   },
   {
     name: "styled-components",
-    image: StyledComponents,
+    Icon: SiStyledcomponents,
   },
   {
     name: "bootstrap",
-    image: Bootstrap,
+    Icon: FaBootstrap,
   },
   {
     name: "chakra-UI",
-    image: ChakraUI,
+    Icon: SiChakraui,
   },
   {
     name: "git",
-    image: Git,
+    Icon: FaGitAlt,
   },
   {
     name: "nodejs",
-    image: NodeJs,
+    Icon: FaNodeJs,
   },
   {
     name: "express",
-    image: Express,
+    Icon: SiExpress,
   },
 ];
 

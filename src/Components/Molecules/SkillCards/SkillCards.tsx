@@ -1,5 +1,5 @@
+import { Title } from "@/Components/Atoms";
 import { skillList } from "@/Data/Skills";
-import { Icon, Title } from "@/Components/Atoms";
 
 import "./SkillCards.scss";
 
@@ -9,9 +9,17 @@ export const SkillCards = () => {
       {skillList.map((skill) => (
         <article key={skill.type}>
           <Title>{skill.type}</Title>
-          <div className="skill-cards">
-            {skill.content.map(({ image, name }) => (
-              <Icon key={image} src={image} alt={name} value={name} />
+          <div className="skill-icons">
+            {skill.content.map(({ name, Icon }) => (
+              <div className="skill-icons__container">
+                {Icon && (
+                  <Icon
+                    className="skill-icons__icon"
+                    aria-label={`${name} icon`}
+                  />
+                )}
+                {name !== undefined && <p>{name}</p>}
+              </div>
             ))}
           </div>
         </article>

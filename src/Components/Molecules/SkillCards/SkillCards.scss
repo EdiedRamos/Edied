@@ -1,10 +1,39 @@
+@import "/src/General/Styles/Colors/colors";
+
 .skill-container {
   margin-top: 4rem !important;
 }
 
-.skill-cards {
+.skill-icons {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
   justify-content: center;
+}
+
+.skill-icons__container {
+  $size: 55px;
+
+  width: calc($size * 1.5);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+
+  img {
+    width: $size;
+    height: $size;
+  }
+
+  .skill-icons__icon {
+    font-size: $size;
+    color: $red-500;
+  }
+
+  p {
+    text-transform: capitalize;
+    font-size: 11px;
+    color: $gray-300;
+  }
 }
