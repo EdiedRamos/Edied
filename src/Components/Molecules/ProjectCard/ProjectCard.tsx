@@ -1,6 +1,6 @@
 import type { ProjectCardType } from "@/Types";
 
-import { FaGitAlt } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { GrDeploy } from "react-icons/gr";
 
 import { IconLink, ProjectTools } from "@/Components/Atoms";
@@ -27,7 +27,7 @@ export const ProjectCard = ({
         </a>
       </div>
       <div className="project-card-container__link">
-        <IconLink repository={repository} name="github" Icon={FaGitAlt} />
+        <IconLink repository={repository} name="github" Icon={FaGithub} />
         <IconLink repository={deployed} name="server" Icon={GrDeploy} />
       </div>
       <ProjectTools techList={techList} />
