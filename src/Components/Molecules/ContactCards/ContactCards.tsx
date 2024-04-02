@@ -5,9 +5,9 @@ import "./ContactCards.scss";
 export const ContactCards = () => {
   return (
     <div className="contact-cards__container">
-      {contactList.map(({ name, href, icon }) => (
+      {contactList.map(({ name, href, Icon }) => (
         <a key={name} href={href} target="_blank" rel="noreferrer">
-          <img key={name} src={icon} alt={`${name} icon`} />
+          <Icon aria-label={`${name} icon`} className="contact-cards__icon" />
         </a>
       ))}
     </div>

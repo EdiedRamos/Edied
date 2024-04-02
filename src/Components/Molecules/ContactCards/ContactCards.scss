@@ -4,8 +4,10 @@
   gap: 10px;
   margin-top: 1rem;
 
-  img {
+  img,
+  .contact-cards__icon {
     width: 35px;
+    font-size: 35px;
     transition: all 0.3s;
 
     &:hover {
