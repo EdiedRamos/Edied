@@ -11,14 +11,14 @@ export const SkillCards = () => {
           <Title>{skill.type}</Title>
           <div className="skill-icons">
             {skill.content.map(({ name, Icon }) => (
-              <div className="skill-icons__container">
+              <div key={name} className="skill-icons__container">
                 {Icon && (
                   <Icon
                     className="skill-icons__icon"
                     aria-label={`${name} icon`}
                   />
                 )}
-                {name !== undefined && <p>{name}</p>}
+                <p>{name}</p>
               </div>
             ))}
           </div>

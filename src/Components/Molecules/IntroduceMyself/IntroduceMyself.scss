@@ -9,11 +9,8 @@
     align-self: center;
     margin-bottom: 2rem;
 
-    color: $cyan-300;
-
     p,
     h1 {
-      color: $indigo-300;
       text-align: center;
     }
 
@@ -24,13 +21,14 @@
 
     h1 {
       margin-bottom: 1.5rem;
+      color: $indigo-500;
       font-size: $font-size-2;
 
       span {
         display: inline-block;
         position: relative;
         z-index: 0;
-        color: $gray-50;
+        color: $gray-200;
 
         &::before {
           position: absolute;

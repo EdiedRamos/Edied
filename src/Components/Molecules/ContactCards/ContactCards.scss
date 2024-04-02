@@ -1,14 +1,16 @@
+@import "/src/General/Styles/Colors/colors";
+
 .contact-cards__container {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 8px;
   margin-top: 1rem;
 
-  img,
   .contact-cards__icon {
+    transition: all 0.2s;
     width: 35px;
-    font-size: 35px;
-    transition: all 0.3s;
+    color: $red-500;
+    font-size: 30px;
 
     &:hover {
       transform: scale(1.1);
