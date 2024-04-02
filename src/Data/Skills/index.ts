@@ -1,25 +1,6 @@
 import type { IconType } from "react-icons";
 
-import {
-  FaBootstrap,
-  FaCss3,
-  FaGitAlt,
-  FaHtml5,
-  FaJava,
-  FaNodeJs,
-  FaPython,
-  FaReact,
-  FaSass,
-} from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io5";
-import {
-  SiChakraui,
-  SiExpress,
-  SiRedux,
-  SiStyledcomponents,
-  SiTypescript,
-} from "react-icons/si";
-import { TbBrandCpp } from "react-icons/tb";
+import { Icons } from "@/General/Icons";
 
 export enum skillContext {
   Languages = "Lenguajes",
@@ -34,70 +15,70 @@ type SkillType = {
 const Languages: SkillType[] = [
   {
     name: "html",
-    Icon: FaHtml5,
+    Icon: Icons.html,
   },
   {
     name: "css",
-    Icon: FaCss3,
+    Icon: Icons.css,
   },
   {
     name: "javascript",
-    Icon: IoLogoJavascript,
+    Icon: Icons.javascript,
   },
   {
     name: "typescript",
-    Icon: SiTypescript,
+    Icon: Icons.typescript,
   },
   {
     name: "java",
-    Icon: FaJava,
+    Icon: Icons.java,
   },
   {
     name: "c++",
-    Icon: TbBrandCpp,
+    Icon: Icons.cpp,
   },
   {
     name: "python",
-    Icon: FaPython,
+    Icon: Icons.python,
   },
 ];
 
 const Tools: SkillType[] = [
   {
     name: "react",
-    Icon: FaReact,
+    Icon: Icons.react,
   },
   {
     name: "redux",
-    Icon: SiRedux,
+    Icon: Icons.redux,
   },
   {
     name: "sass",
-    Icon: FaSass,
+    Icon: Icons.sass,
   },
   {
     name: "styled-components",
-    Icon: SiStyledcomponents,
+    Icon: Icons.styled,
   },
   {
     name: "bootstrap",
-    Icon: FaBootstrap,
+    Icon: Icons.bootstrap,
   },
   {
     name: "chakra-UI",
-    Icon: SiChakraui,
+    Icon: Icons.chakraui,
   },
   {
     name: "git",
-    Icon: FaGitAlt,
+    Icon: Icons.git,
   },
   {
     name: "nodejs",
-    Icon: FaNodeJs,
+    Icon: Icons.nodejs,
   },
   {
     name: "express",
-    Icon: SiExpress,
+    Icon: Icons.express,
   },
 ];
 
