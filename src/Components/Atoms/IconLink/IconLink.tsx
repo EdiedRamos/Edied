@@ -1,19 +1,17 @@
+import type { IconType } from "react-icons";
+
 import "./IconLink.scss";
 
-type Props = {
+type PropsType = {
   repository: string;
-  imgName: string;
-  imgSrc: string;
+  name: string;
+  Icon: IconType;
 };
 
-export const IconLink = ({ repository, imgName, imgSrc }: Props) => {
+export const IconLink = ({ repository, name, Icon }: PropsType) => {
   return (
     <a href={repository} target="_blank" rel="noreferrer" className="spin">
-      <img
-        className="project-icon-redirect"
-        src={imgSrc}
-        alt={`${imgName} icon`}
-      />
+      {Icon && <Icon className="icon-link__icon" aria-label={`${name} icon`} />}
     </a>
   );
 };

@@ -1,15 +1,6 @@
 import type { ProjectCardType } from "@/Types";
 
-import {
-  Css,
-  Html,
-  Javascript,
-  React,
-  Redux,
-  StyledComponents,
-  Typescript,
-} from "@/Resources/Icons";
-
+import { Icons } from "@/General/Icons";
 import { CountryListing, IpTracker, QrGenerator } from "@/Resources/Projects";
 
 export const projectList: ProjectCardType[] = [
@@ -21,15 +12,15 @@ export const projectList: ProjectCardType[] = [
     techList: [
       {
         name: "html",
-        icon: Html,
+        Icon: Icons.html,
       },
       {
         name: "css",
-        icon: Css,
+        Icon: Icons.css,
       },
       {
         name: "javascript",
-        icon: Javascript,
+        Icon: Icons.javascript,
       },
     ],
   },
@@ -41,15 +32,15 @@ export const projectList: ProjectCardType[] = [
     techList: [
       {
         name: "react",
-        icon: React,
+        Icon: Icons.react,
       },
       {
         name: "redux",
-        icon: Redux,
+        Icon: Icons.redux,
       },
       {
         name: "css",
-        icon: Css,
+        Icon: Icons.css,
       },
     ],
   },
@@ -61,15 +52,15 @@ export const projectList: ProjectCardType[] = [
     techList: [
       {
         name: "react",
-        icon: React,
+        Icon: Icons.react,
       },
       {
         name: "styled",
-        icon: StyledComponents,
+        Icon: Icons.styled,
       },
       {
         name: "typescript",
-        icon: Typescript,
+        Icon: Icons.typescript,
       },
     ],
   },

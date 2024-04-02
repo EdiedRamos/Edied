@@ -1,6 +1,8 @@
+import type { IconType } from "react-icons";
+
 export type TechListType = {
   name: string;
-  icon: string;
+  Icon: IconType;
 };
 
 export type ProjectCardType = {

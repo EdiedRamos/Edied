@@ -8,13 +8,12 @@ type Props = {
 
 export const ProjectTools = ({ techList }: Props) => {
   return (
-    <div className="project-tech-container">
-      {techList.map((tech) => (
-        <img
-          className="project-icon"
-          key={tech.name}
-          src={tech.icon}
-          alt={`${tech} icon`}
+    <div className="project-tech__container">
+      {techList.map(({ name, Icon }) => (
+        <Icon
+          className="project-tech__icon"
+          key={name}
+          aria-label={`${name} icon`}
         />
       ))}
     </div>
