@@ -10,13 +10,12 @@ export const IntroduceMyself = () => {
           Desarrollador <span>Frontend</span>
         </h1>
         <p>
-          Hola, soy <span>Edied </span>
-          <span>Isaías </span>
-          <span>Ramos </span>
-          <span>Hernández</span>, apasionado por el frontend, mi misión es dar
-          vida a experiencias digitales excepcionales. Con especialización en
-          React, transformo conceptos en interfaces atractivas, optimizadas y
-          listas para cautivar a los usuarios.
+          ¡Hola! Soy <span>Edied Isaías Ramos Hernández</span> y mi fascinación
+          radica en el mundo del frontend. Me dedico a crear experiencias
+          digitales excepcionales. Con habilidades especializadas en{" "}
+          <span>React</span>, convierto ideas en interfaces{" "}
+          <span>atractivas</span>,<span>optimizadas</span> y listas para{" "}
+          <span>impresionar</span> a los usuarios.
         </p>
       </div>
       <MyFace />
