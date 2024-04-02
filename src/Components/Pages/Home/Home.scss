@@ -2,6 +2,7 @@
   // * new styles
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   background: url("/src/Resources/Icons/bg-simply-shiny.svg");
   // background-size: 100% cover;
   background-size: cover;

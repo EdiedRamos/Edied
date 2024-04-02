@@ -6,7 +6,9 @@ export const IntroduceMyself = () => {
   return (
     <div className="container introduce">
       <div className="introduce__text">
-        <h1>Desarrollador Frontend</h1>
+        <h1>
+          Desarrollador <span>Frontend</span>
+        </h1>
         <p>
           Hola, soy <span>Edied </span>
           <span>Isaías </span>

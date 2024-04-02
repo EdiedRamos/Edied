@@ -13,28 +13,36 @@
 
     p,
     h1 {
+      color: $indigo-300;
       text-align: center;
-      color: $gray-300;
     }
 
     p {
+      color: $gray-300;
       font-size: $font-size-6;
     }
 
     h1 {
-      background-image: linear-gradient(
-        to right,
-        $red-300,
-        $red-400,
-        $red-500,
-        $red-600,
-        $red-700
-      );
-      // text-shadow: 4px 4px $gray-700;
-      background-clip: text;
-      color: transparent;
       margin-bottom: 1.5rem;
       font-size: $font-size-2;
+
+      span {
+        display: inline-block;
+        position: relative;
+        z-index: 0;
+        color: $gray-50;
+
+        &::before {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          z-index: -1;
+          background-color: $indigo-500;
+          width: 100%;
+          height: 40%;
+          content: "";
+        }
+      }
     }
 
     span {
