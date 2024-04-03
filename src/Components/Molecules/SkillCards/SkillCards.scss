@@ -1,7 +1,10 @@
 @import "/src/General/Styles/Colors/colors";
+@import "/src/General/Styles/Fonts/fonts";
 
 .skill-container {
-  // margin-top: 4rem !important;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 .skill-icons {
@@ -33,7 +36,7 @@
 
   p {
     text-transform: capitalize;
-    font-size: 11px;
-    color: $gray-300;
+    font-size: $font-size-9 * 1.1;
+    color: $gray-200;
   }
 }
