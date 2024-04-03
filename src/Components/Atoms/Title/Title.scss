@@ -1,11 +1,36 @@
 @import "@/General/Styles/Colors/colors";
 
+.title-container {
+  display: flex;
+  justify-content: center;
+}
+
 .title {
+  display: inline-block;
+  position: relative;
+  color: $gray-100;
   font-size: 1.3rem;
-  color: $gray-400;
   text-align: center;
-  text-shadow: 3px 3px $gray-700;
-  padding: 3rem 0;
+
+  &::before,
+  &::after {
+    position: absolute;
+    z-index: -1;
+    filter: blur(15px);
+    width: 50%;
+    height: 100%;
+    content: "";
+  }
+
+  &::before {
+    background-color: $red-700;
+  }
+
+  &::after {
+    right: 0;
+    bottom: 0;
+    background-color: $blue-700;
+  }
 }
 
 @media (width >= 992px) {

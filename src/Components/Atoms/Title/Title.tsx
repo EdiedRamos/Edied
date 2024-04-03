@@ -5,5 +5,9 @@ type PropsType = {
 };
 
 export const Title = ({ children }: PropsType): JSX.Element => {
-  return <h2 className="title">{children}</h2>;
+  return (
+    <div className="title-container">
+      <h2 className="title">{children}</h2>
+    </div>
+  );
 };
