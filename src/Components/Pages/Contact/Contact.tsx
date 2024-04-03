@@ -5,7 +5,10 @@ import { ROUTE_URLS } from "@/Domain/Constants/urls";
 const Contact = () => {
   return (
     <section id={ROUTE_URLS.CONTACT}>
-      <div className="container" style={{ margin: "4rem auto" }}>
+      <div
+        className="container"
+        style={{ paddingBottom: "4rem", paddingTop: "4rem" }}
+      >
         <article>
           <Title>Contacto</Title>
           <ContactCards />

@@ -6,10 +6,12 @@ const Portfolio = (): JSX.Element => {
   return (
     <main>
       <Header />
-      <Home />
-      <Skills />
-      <Projects />
-      <Contact />
+      <div style={{ backdropFilter: "blur(75px)" }}>
+        <Home />
+        <Skills />
+        <Projects />
+        <Contact />
+      </div>
     </main>
   );
 };
