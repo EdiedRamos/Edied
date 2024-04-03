@@ -1,12 +1,13 @@
-import { Home, Projects, Contact, Skills } from "@/Components/Pages";
-
 import { Header } from "@/Components/Molecules";
+import { Contact, Home, Projects, Skills } from "@/Components/Pages";
+
+import "./Portfolio.scss";
 
 const Portfolio = (): JSX.Element => {
   return (
     <main>
       <Header />
-      <div style={{ backdropFilter: "blur(75px)" }}>
+      <div className="portfolio-wrapper">
         <Home />
         <Skills />
         <Projects />

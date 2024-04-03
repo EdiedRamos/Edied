@@ -1,12 +1,14 @@
 import { ROUTE_URLS } from "@/Domain/Constants/urls";
 
-import { Title } from "@/Components/Atoms";
+import { SectionSetup, Title } from "@/Components/Atoms";
 import { ProjectCards } from "@/Components/Organisms";
+
+import "./Projects.scss";
 
 const Projects = () => {
   return (
-    <section id={ROUTE_URLS.PROJECTS}>
-      <article className="container" style={{ marginTop: "4rem" }}>
+    <SectionSetup className="projects-section" id={ROUTE_URLS.PROJECTS}>
+      <article className="container">
         <Title>Proyectos</Title>
         <ProjectCards />
         <p
@@ -20,7 +22,7 @@ const Projects = () => {
           <span style={{ fontStyle: "normal" }}>😉</span>
         </p>
       </article>
-    </section>
+    </SectionSetup>
   );
 };
 
