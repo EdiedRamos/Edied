@@ -10,7 +10,7 @@
   background: $gray-shadow-80;
   backdrop-filter: blur(10px);
   border-radius: 10px;
-  outline: 2px solid $gray-800;
+  outline: 2px solid $red-600;
   width: 90%;
 
   &__list {
@@ -42,13 +42,13 @@
           svg {
             width: 25px;
             height: 25px;
-            fill: $cyan-500;
+            fill: $red-500;
           }
         }
 
         p {
           font-size: $font-size-9;
-          color: $gray-400;
+          color: $gray-200;
         }
       }
     }
