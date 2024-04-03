@@ -1,22 +1,20 @@
 @import "/src/General/Styles/Colors/colors";
 
 .icon-link__link {
-  box-shadow: 3px 3px $gray-300;
-  border: 2px solid $gray-300;
-  border-radius: 8px;
-  padding: 5px;
+  border: 2px solid $green-500;
+  border-radius: 50%;
+  padding: 10px;
 
   &:hover {
-    background-color: $gray-800;
+    background-color: $green-800;
   }
 
   &:active {
-    transform: translate(2px, 2px);
-    box-shadow: none;
+    transform: scale(0.9);
   }
 
   .icon-link__icon {
-    color: $gray-300;
-    font-size: 30px;
+    color: $green-500;
+    font-size: 25px;
   }
 }

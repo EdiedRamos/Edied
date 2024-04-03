@@ -16,14 +16,14 @@ export const ProjectCard = ({
 }: ProjectCardType) => {
   return (
     <div className="project-card-container">
-      <div className="project-card-container__header">
-        <a href={deployed} target="_blank">
-          <h3>{title}</h3>
-        </a>
-      </div>
       <div className="project-card-container__preview">
         <a href={deployed} target="_blank">
           <img src={preview} alt={title} />
+        </a>
+      </div>
+      <div className="project-card-container__header">
+        <a href={deployed} target="_blank">
+          <h3>{title}</h3>
         </a>
       </div>
       <div className="project-card-container__link">

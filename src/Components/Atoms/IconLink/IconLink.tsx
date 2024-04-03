@@ -11,7 +11,7 @@ type PropsType = {
 export const IconLink = ({ repository, name, Icon }: PropsType) => {
   return (
     <a
-      className="icon-link__link"
+      className="icon-link__link spin"
       href={repository}
       target="_blank"
       rel="noreferrer"
