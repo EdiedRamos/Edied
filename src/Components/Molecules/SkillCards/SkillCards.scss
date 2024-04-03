@@ -5,38 +5,53 @@
   display: flex;
   flex-direction: column;
   gap: 3rem;
+
+  .skill-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+
+    .skill-icons__container {
+      $size: 40px;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+      padding: 8px;
+      width: calc($size * 2);
+      &:hover .skill-icons__icon {
+        animation: dance 1s infinite;
+      }
+
+      .skill-icons__icon {
+        color: $indigo-600;
+        font-size: $size;
+      }
+
+      p {
+        color: $gray-200;
+        font-size: $font-size-9 * 1.1;
+        text-transform: capitalize;
+      }
+    }
+  }
 }
 
-.skill-icons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  justify-content: center;
-}
-
-.skill-icons__container {
-  $size: 55px;
-
-  width: calc($size * 1.5);
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 5px;
-
-  img {
-    width: $size;
-    height: $size;
+@keyframes dance {
+  0% {
+    transform: translateX(0);
+    transform: rotate(12deg);
   }
-
-  .skill-icons__icon {
-    font-size: $size;
-    color: $red-500;
+  25% {
+    transform: translateX(5px);
+    transform: rotate(-12deg);
   }
-
-  p {
-    text-transform: capitalize;
-    font-size: $font-size-9 * 1.1;
-    color: $gray-200;
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(-5px);
   }
 }

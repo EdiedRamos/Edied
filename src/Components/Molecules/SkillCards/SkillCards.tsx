@@ -12,12 +12,10 @@ export const SkillCards = () => {
           <div className="skill-icons">
             {skill.content.map(({ name, Icon }) => (
               <div key={name} className="skill-icons__container">
-                {Icon && (
-                  <Icon
-                    className="skill-icons__icon"
-                    aria-label={`${name} icon`}
-                  />
-                )}
+                <Icon
+                  className="skill-icons__icon"
+                  aria-label={`${name} icon`}
+                />
                 <p>{name}</p>
               </div>
             ))}
