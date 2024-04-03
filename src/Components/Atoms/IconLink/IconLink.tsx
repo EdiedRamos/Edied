@@ -10,7 +10,12 @@ type PropsType = {
 
 export const IconLink = ({ repository, name, Icon }: PropsType) => {
   return (
-    <a href={repository} target="_blank" rel="noreferrer" className="spin">
+    <a
+      className="icon-link__link"
+      href={repository}
+      target="_blank"
+      rel="noreferrer"
+    >
       {Icon && <Icon className="icon-link__icon" aria-label={`${name} icon`} />}
     </a>
   );

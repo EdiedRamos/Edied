@@ -6,9 +6,10 @@
 
   img {
     -webkit-user-drag: none;
-    outline: 4px solid $red-700;
-    border-radius: 50%;
-    background-color: $primary;
+    outline: 8px solid $gray-shadow-10;
+    border-radius: 20px;
+    background-color: $gray-shadow-70;
+    background-color: $red-600;
     max-width: 100%;
     height: auto;
   }

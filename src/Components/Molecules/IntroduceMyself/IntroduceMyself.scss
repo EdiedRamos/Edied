@@ -17,35 +17,18 @@
     p {
       color: $gray-300;
       font-size: $font-size-6;
-
-      span {
-        color: $indigo-500;
-        font-style: italic;
-        font-weight: bold;
-      }
     }
 
     h1 {
       margin-bottom: 1.5rem;
-      color: $indigo-500;
+      color: $gray-300;
       font-size: $font-size-2;
 
       span {
         display: inline-block;
         position: relative;
         z-index: 0;
-        color: $gray-200;
-
-        &::before {
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          z-index: -1;
-          background-color: $indigo-500;
-          width: 100%;
-          height: 40%;
-          content: "";
-        }
+        color: $red-500;
       }
     }
 
