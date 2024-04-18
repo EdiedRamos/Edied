@@ -1,29 +1,14 @@
 import type { ProjectCardType } from "@/Types";
 
 import { Icons } from "@/General/Icons";
-import { CountryListing, IpTracker, QrGenerator } from "@/Resources/Projects";
+import {
+  CountryListing,
+  IpTracker,
+  QrGenerator,
+  TicTacToe,
+} from "@/Resources/Projects";
 
 export const projectList: ProjectCardType[] = [
-  {
-    title: "QR Generator",
-    preview: QrGenerator,
-    repository: "https://github.com/EdiedRamos/qr-generator",
-    deployed: "https://ediedramos.github.io/qr-generator/",
-    techList: [
-      {
-        name: "html",
-        Icon: Icons.html,
-      },
-      {
-        name: "css",
-        Icon: Icons.css,
-      },
-      {
-        name: "javascript",
-        Icon: Icons.javascript,
-      },
-    ],
-  },
   {
     title: "Countries",
     preview: CountryListing,
@@ -45,6 +30,26 @@ export const projectList: ProjectCardType[] = [
     ],
   },
   {
+    title: "Tic Tac Toe",
+    preview: TicTacToe,
+    repository: "https://github.com/EdiedRamos/tic-tac-toe",
+    deployed: "https://tic-tac-toe-kpse.vercel.app/",
+    techList: [
+      {
+        name: "react",
+        Icon: Icons.react,
+      },
+      {
+        name: "sass",
+        Icon: Icons.sass,
+      },
+      {
+        name: "typescript",
+        Icon: Icons.typescript,
+      },
+    ],
+  },
+  {
     title: "IP Tracker",
     preview: IpTracker,
     repository: "https://github.com/EdiedRamos/ip-address-tracker",
@@ -61,6 +66,26 @@ export const projectList: ProjectCardType[] = [
       {
         name: "typescript",
         Icon: Icons.typescript,
+      },
+    ],
+  },
+  {
+    title: "QR Generator",
+    preview: QrGenerator,
+    repository: "https://github.com/EdiedRamos/qr-generator",
+    deployed: "https://ediedramos.github.io/qr-generator/",
+    techList: [
+      {
+        name: "html",
+        Icon: Icons.html,
+      },
+      {
+        name: "css",
+        Icon: Icons.css,
+      },
+      {
+        name: "javascript",
+        Icon: Icons.javascript,
       },
     ],
   },
