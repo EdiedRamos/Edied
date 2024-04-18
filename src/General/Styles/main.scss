@@ -13,13 +13,7 @@
 }
 
 body {
-  background-image: url("/src/Resources/Icons/background.webp");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   background-color: $primary;
-  min-height: 100vh;
 }
 
 p {

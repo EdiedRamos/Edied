@@ -6,9 +6,14 @@ import "./Home.scss";
 
 const Home = () => {
   return (
-    <section id={ROUTE_URLS.HOME} className="home-section">
-      <ContactCards />
-      <IntroduceMyself />
+    <section
+      id={ROUTE_URLS.HOME}
+      className="home-section home-section__container"
+    >
+      <div className="home-section__content">
+        <ContactCards />
+        <IntroduceMyself />
+      </div>
     </section>
   );
 };

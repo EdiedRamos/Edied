@@ -1,9 +1,23 @@
 .home-section {
-  display: flex;
-  flex-direction: column;
-  // background: url("/src/Resources/Icons/bg-simply-shiny.svg");
-  // background-size: 100% cover;
-  // background-size: cover;
-  // * new styles
-  min-height: 100vh;
+  $height: 100vh;
+  min-height: $height;
+
+  &__container,
+  &__content {
+    min-height: $height;
+  }
+
+  &__container {
+    background-image: url("/src/Resources/Icons/background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  &__content {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    backdrop-filter: blur(75px);
+  }
 }
