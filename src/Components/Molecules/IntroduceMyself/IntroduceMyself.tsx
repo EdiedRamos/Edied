@@ -4,8 +4,8 @@ import "./IntroduceMyself.scss";
 
 export const IntroduceMyself = () => {
   return (
-    <div className="container introduce">
-      <div className="introduce__text">
+    <div className="introduce-myself container">
+      <div className="introduce-myself__text">
         <h1>
           Desarrollador <span>Frontend</span>
         </h1>

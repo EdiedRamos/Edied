@@ -1,7 +1,7 @@
 @import "/src/General/Styles/Colors/colors";
 @import "/src/General/Styles/Fonts/fonts";
 
-.introduce {
+.introduce-myself {
   display: grid;
   grid-template-columns: 1fr;
 
@@ -39,7 +39,7 @@
 }
 
 @media (width >= 992px) {
-  .introduce {
+  .introduce-myself {
     grid-template-columns: 60% 40%;
 
     &__text {
