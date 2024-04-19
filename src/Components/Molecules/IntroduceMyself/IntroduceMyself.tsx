@@ -9,6 +9,7 @@ export const IntroduceMyself = () => {
         <h1>
           Desarrollador <span>Frontend</span>
         </h1>
+        <div className="introduce-myself__separator" />
         <p>
           ¡Hola! Soy Edied Isaías Ramos Hernández y mi fascinación radica en el
           mundo del frontend. Me dedico a crear experiencias digitales

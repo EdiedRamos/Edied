@@ -5,8 +5,16 @@
   display: grid;
   grid-template-columns: 1fr;
 
+  &__separator {
+    border: 1px solid $red-500;
+    width: 80%;
+  }
+
   &__text {
-    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
     margin-bottom: 2rem;
 
     p,
@@ -20,7 +28,6 @@
     }
 
     h1 {
-      margin-bottom: 1.5rem;
       color: $gray-300;
       font-size: $font-size-2;
 
@@ -42,7 +49,12 @@
   .introduce-myself {
     grid-template-columns: 60% 40%;
 
+    &__separator {
+      width: 150px;
+    }
+
     &__text {
+      align-items: flex-start;
       margin-bottom: 0;
 
       p,
