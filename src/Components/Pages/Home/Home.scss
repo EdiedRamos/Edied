@@ -9,8 +9,6 @@
 
   &__content {
     display: flex;
-    position: relative;
     flex-direction: column;
-    backdrop-filter: blur(75px);
   }
 }
