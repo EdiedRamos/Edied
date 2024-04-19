@@ -10,6 +10,7 @@
   &__box {
     position: relative;
     margin-top: 70px;
+    outline: 16px solid $gray-shadow-80;
     border-radius: 40px 40px 20px 20px;
     background: linear-gradient(
       -25deg,
