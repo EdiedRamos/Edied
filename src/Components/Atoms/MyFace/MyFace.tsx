@@ -7,6 +7,7 @@ export const MyFace = () => {
     <div className="my-face my-face__container">
       <div className="my-face__box">
         <img
+          fetchpriority="high"
           className="my-face__img"
           width="250"
           height="240"
