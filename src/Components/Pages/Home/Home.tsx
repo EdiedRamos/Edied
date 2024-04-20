@@ -11,7 +11,9 @@ const Home = () => {
       className="home-section home-section__container"
     >
       <div className="home-section__content">
-        <ContactCards />
+        <div style={{ margin: "1.5rem 0" }}>
+          <ContactCards />
+        </div>
         <IntroduceMyself />
       </div>
     </section>
