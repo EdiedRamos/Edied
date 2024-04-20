@@ -10,7 +10,9 @@ const Contact = () => {
       <div className="container">
         <article>
           <Title>Contacto</Title>
-          <ContactCards />
+          <div style={{ marginBottom: "4rem" }}>
+            <ContactCards />
+          </div>
         </article>
       </div>
     </SectionSetup>
