@@ -1,4 +1,4 @@
-@import "@/General/Styles/Colors/colors";
+@import "/src/General/Styles/main.scss";
 
 .title-container {
   display: flex;
@@ -10,7 +10,7 @@
   position: relative;
   margin: 2rem 0;
   color: $gray-100;
-  font-size: 1.3rem;
+  font-size: $font-size-5;
   text-align: center;
 
   &::before {
@@ -26,6 +26,6 @@
 
 @media (width >= 992px) {
   .title {
-    font-size: 2rem;
+    font-size: $font-size-2;
   }
 }
