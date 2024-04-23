@@ -1,6 +1,6 @@
 export interface HeaderItem {
   id: number;
-  name: string;
+  name: "about" | "skills" | "projects" | "contact";
   redirect: string;
   Icon: () => JSX.Element;
 }

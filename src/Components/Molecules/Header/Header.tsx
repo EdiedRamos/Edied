@@ -1,3 +1,4 @@
+import { HeaderText } from "@/Data/Text";
 import { headerData } from "../../../Data/Header";
 
 import "./Header.scss";
@@ -12,7 +13,7 @@ export const Header = () => {
               <a title={name} href={`#${redirect}`}>
                 <Icon />
               </a>
-              <p>{name}</p>
+              <p>{HeaderText[name]}</p>
             </div>
           </li>
         ))}

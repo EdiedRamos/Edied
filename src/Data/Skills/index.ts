@@ -2,14 +2,14 @@ import type { IconType } from "react-icons";
 
 import { Icons } from "@/General/Icons";
 
-export enum skillContext {
-  Languages = "Lenguajes",
-  Tools = "Herramientas",
-}
-
 type SkillType = {
   name: string;
   Icon: IconType;
+};
+
+type SkillListType = {
+  id: "languages" | "tools";
+  content: SkillType[];
 };
 
 const Languages: SkillType[] = [
@@ -82,13 +82,13 @@ const Tools: SkillType[] = [
   },
 ];
 
-export const skillList = [
+export const skillList: SkillListType[] = [
   {
-    type: skillContext.Languages,
+    id: "languages",
     content: Languages,
   },
   {
-    type: skillContext.Tools,
+    id: "tools",
     content: Tools,
   },
 ];

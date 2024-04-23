@@ -4,22 +4,21 @@ import { SectionSetup, Title } from "@/Components/Atoms";
 import { ProjectCards } from "@/Components/Organisms";
 
 import "./Projects.scss";
+import { ProjectsText } from "@/Data/Text";
 
 const Projects = () => {
   return (
     <SectionSetup className="projects-section" id={ROUTE_URLS.PROJECTS}>
       <article className="container">
-        <Title>Proyectos</Title>
+        <Title>{ProjectsText.title}</Title>
         <ProjectCards />
         <p
           style={{
-            fontStyle: "italic",
             color: "#fcc39b",
             marginTop: "1.2rem",
           }}
         >
-          Más proyectos en camino.{" "}
-          <span style={{ fontStyle: "normal" }}>😉</span>
+          {ProjectsText.moreProjects}
         </p>
       </article>
     </SectionSetup>
