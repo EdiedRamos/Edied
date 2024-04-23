@@ -3,6 +3,7 @@ import type { ProjectCardType } from "@/Types";
 import { Icons } from "@/General/Icons";
 import {
   CountryListing,
+  CountryQuiz,
   IpTracker,
   QrGenerator,
   TicTacToe,
@@ -26,6 +27,26 @@ export const projectList: ProjectCardType[] = [
       {
         name: "css",
         Icon: Icons.css,
+      },
+    ],
+  },
+  {
+    title: "Country Quiz",
+    preview: CountryQuiz,
+    repository: "https://github.com/EdiedRamos/country-quiz",
+    deployed: "https://country-quiz-mu.vercel.app/",
+    techList: [
+      {
+        name: "react",
+        Icon: Icons.react,
+      },
+      {
+        name: "typescript",
+        Icon: Icons.typescript,
+      },
+      {
+        name: "sass",
+        Icon: Icons.sass,
       },
     ],
   },

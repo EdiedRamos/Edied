@@ -1,4 +1,5 @@
 export { default as AdviceGenerator } from "./advicegenerator.webp";
+export { default as CountryQuiz } from "./country-quiz.webp";
 export { default as CountryListing } from "./countrylisting.webp";
 export { default as Creditos } from "./creditos.webp";
 export { default as ExpensesChart } from "./expenseschart.webp";
