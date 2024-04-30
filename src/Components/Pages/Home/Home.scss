@@ -1,10 +1,5 @@
 .home-section {
   $height: 100vh;
-  background: radial-gradient(
-    ellipse 80% 80% at 50% -20%,
-    rgba(127, 35, 189, 0.2),
-    rgba(255, 255, 255, 0)
-  );
   min-height: $height;
 
   &__container,
