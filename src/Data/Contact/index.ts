@@ -28,7 +28,7 @@ export const contactList: ContactT[] = [
   },
   {
     name: "cv",
-    href: "https://drive.google.com/file/d/1zy75AUfLWtG__QrRs3OoCqiKmsi8nKLs/view?usp=sharing",
+    href: "https://drive.google.com/file/d/1Dd2xbO16LNYmlAmpgcl-P5ICs6eoSTi2/view?usp=sharing",
     Icon: TbFileCv,
   },
 ];
