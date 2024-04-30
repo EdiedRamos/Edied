@@ -1,0 +1,23 @@
+@import "/src/General/Styles/Colors/colors";
+
+.coding-link {
+  &__container {
+    display: inline-block;
+    position: relative;
+    bottom: -230px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__icon {
+    transition: all 0.3s ease-in-out;
+    margin: 0 4px;
+    color: $red-500;
+    font-size: 2rem;
+
+    &:hover {
+      transform: rotate(-25deg);
+      color: $green-500;
+    }
+  }
+}

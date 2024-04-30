@@ -1,3 +1,4 @@
+export { CodingLink } from "./CodingLink/CodingLink";
 export { ContactCards } from "./ContactCards/ContactCards";
 export { Header } from "./Header/Header";
 export { IntroduceMyself } from "./IntroduceMyself/IntroduceMyself";

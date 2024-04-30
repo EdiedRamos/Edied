@@ -1,3 +1,4 @@
+export { BaseLink } from "./BaseLink/BaseLink";
 export { BorderContainer } from "./BorderContainer/BorderContainer";
 export { IconLink } from "./IconLink/IconLink";
 export { MyFace } from "./MyFace/MyFace";
