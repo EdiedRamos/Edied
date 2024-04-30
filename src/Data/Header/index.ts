@@ -2,7 +2,7 @@ import { HeaderItem } from "@/Interfaces";
 import { ROUTE_URLS } from "@/Domain/Constants/urls";
 import {
   AboutIcon,
-  ContactIcon,
+  // ContactIcon,
   ProjectsIcon,
   SkillsIcon,
 } from "@/Components/Icons";
@@ -26,10 +26,10 @@ export const headerData: HeaderItem[] = [
     redirect: ROUTE_URLS.PROJECTS,
     Icon: ProjectsIcon,
   },
-  {
-    id: 4,
-    name: "contact",
-    redirect: ROUTE_URLS.CONTACT,
-    Icon: ContactIcon,
-  },
+  // {
+  //   id: 4,
+  //   name: "contact",
+  //   redirect: ROUTE_URLS.CONTACT,
+  //   Icon: ContactIcon,
+  // },
 ];
