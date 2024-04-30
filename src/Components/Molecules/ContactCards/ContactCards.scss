@@ -3,21 +3,23 @@
 .contact-cards__container {
   display: flex;
   justify-content: center;
-  gap: 8px;
+  gap: 10px;
   margin-top: 1rem;
 
   .contact-cards__icon {
-    transition: all 0.2s;
+    transition: all 0.2s ease-out;
     width: 35px;
+    height: 35px;
     color: $red-500;
     font-size: 30px;
 
     &:hover {
-      transform: scale(1.1);
+      transform: scale(0.9) rotate(-10deg);
+      color: $red-600;
     }
 
     &:active {
-      transform: scale(0.9);
+      transform: scale(0.8);
     }
   }
 }
