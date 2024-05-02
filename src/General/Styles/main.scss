@@ -24,6 +24,28 @@ p {
   animation: spin 3s infinite;
 }
 
+// * Navigation bar
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: $gray-800;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: $red-500;
+
+  &:hover {
+    background-color: $green-500;
+  }
+
+  &:active {
+    background-color: $green-600;
+  }
+}
+
 // * Text
 .bold {
   color: $gray-50;
