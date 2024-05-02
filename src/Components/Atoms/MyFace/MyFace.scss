@@ -9,6 +9,7 @@
 
   &__box {
     position: relative;
+    transition: all 500ms;
     margin-top: 70px;
     outline: 16px solid $gray-shadow-80;
     border-radius: 40px 40px 20px 20px;
@@ -24,6 +25,10 @@
     background-color: $red-600;
     width: 250px;
     height: 180px;
+
+    &:hover {
+      outline-color: $green-500;
+    }
   }
 
   &__img {
