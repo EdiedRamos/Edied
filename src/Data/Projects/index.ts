@@ -2,7 +2,6 @@ import type { ProjectCardType } from "@/Types";
 
 import { Icons } from "@/General/Icons";
 import {
-  CountryListing,
   CountryQuiz,
   IpTracker,
   QrGenerator,
@@ -10,26 +9,6 @@ import {
 } from "@/Resources/Projects";
 
 export const projectList: ProjectCardType[] = [
-  {
-    title: "Countries",
-    preview: CountryListing,
-    repository: "https://github.com/EdiedRamos/countries",
-    deployed: "https://countries-two-rho.vercel.app/",
-    techList: [
-      {
-        name: "react",
-        Icon: Icons.react,
-      },
-      {
-        name: "redux",
-        Icon: Icons.redux,
-      },
-      {
-        name: "css",
-        Icon: Icons.css,
-      },
-    ],
-  },
   {
     title: "Country Quiz",
     preview: CountryQuiz,
