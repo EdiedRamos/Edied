@@ -1,12 +1,13 @@
-import type { ProjectCardType } from "@/Types";
-
-import { Icons } from "@/General/Icons";
 import {
   CountryQuiz,
   IpTracker,
+  MusicPlayer,
   QrGenerator,
   TicTacToe,
 } from "@/Resources/Projects";
+
+import { Icons } from "@/General/Icons";
+import type { ProjectCardType } from "@/Types";
 
 export const projectList: ProjectCardType[] = [
   {
@@ -40,12 +41,32 @@ export const projectList: ProjectCardType[] = [
         Icon: Icons.react,
       },
       {
+        name: "typescript",
+        Icon: Icons.typescript,
+      },
+      {
         name: "sass",
         Icon: Icons.sass,
+      },
+    ],
+  },
+  {
+    title: "Music Player",
+    preview: MusicPlayer,
+    repository: "https://github.com/EdiedRamos/music-player",
+    deployed: "https://ediedramos.github.io/music-player/",
+    techList: [
+      {
+        name: "react",
+        Icon: Icons.react,
       },
       {
         name: "typescript",
         Icon: Icons.typescript,
+      },
+      {
+        name: "sass",
+        Icon: Icons.sass,
       },
     ],
   },
@@ -60,12 +81,12 @@ export const projectList: ProjectCardType[] = [
         Icon: Icons.react,
       },
       {
-        name: "styled",
-        Icon: Icons.styled,
-      },
-      {
         name: "typescript",
         Icon: Icons.typescript,
+      },
+      {
+        name: "styled",
+        Icon: Icons.styled,
       },
     ],
   },
