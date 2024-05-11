@@ -1,5 +1,4 @@
 import type { IconType } from "react-icons";
-
 import { Icons } from "@/General/Icons";
 
 type SkillType = {
@@ -55,6 +54,10 @@ const Tools: SkillType[] = [
   {
     name: "sass",
     Icon: Icons.sass,
+  },
+  {
+    name: "tailwind",
+    Icon: Icons.tailwind,
   },
   {
     name: "styled-components",
