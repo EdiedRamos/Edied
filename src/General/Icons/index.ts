@@ -9,19 +9,22 @@ import {
   FaReact,
   FaSass,
 } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io5";
 import {
   SiChakraui,
   SiExpress,
   SiRedux,
   SiStyledcomponents,
+  SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
+
+import { IoLogoJavascript } from "react-icons/io5";
 import { TbBrandCpp } from "react-icons/tb";
 
 export const Icons = {
   bootstrap: FaBootstrap,
   css: FaCss3,
+  tailwind: SiTailwindcss,
   git: FaGitAlt,
   html: FaHtml5,
   java: FaJava,

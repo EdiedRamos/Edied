@@ -1,5 +1,6 @@
 import {
   CountryQuiz,
+  GithubProfile,
   IpTracker,
   MusicPlayer,
   QrGenerator,
@@ -10,6 +11,26 @@ import { Icons } from "@/General/Icons";
 import type { ProjectCardType } from "@/Types";
 
 export const projectList: ProjectCardType[] = [
+  {
+    title: "Github Profile",
+    preview: GithubProfile,
+    repository: "https://github.com/EdiedRamos/github-profile",
+    deployed: "https://github-profile-five-tau.vercel.app/",
+    techList: [
+      {
+        name: "react",
+        Icon: Icons.react,
+      },
+      {
+        name: "typescript",
+        Icon: Icons.typescript,
+      },
+      {
+        name: "tailwind",
+        Icon: Icons.tailwind,
+      },
+    ],
+  },
   {
     title: "Country Quiz",
     preview: CountryQuiz,

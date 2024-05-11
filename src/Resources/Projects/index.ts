@@ -11,3 +11,4 @@ export { default as NotificationPage } from "./notificationpage.webp";
 export { default as QrGenerator } from "./qr-generator.webp";
 export { default as SinglePrice } from "./singleprice.webp";
 export { default as TicTacToe } from "./tic-tac-toe.webp";
+export { default as GithubProfile } from "./github-profile.webp";
