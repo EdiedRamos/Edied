@@ -1,6 +1,7 @@
 import {
   CountryQuiz,
   GithubProfile,
+  GuessTheWord,
   IpTracker,
   MusicPlayer,
   QrGenerator,
@@ -28,6 +29,26 @@ export const projectList: ProjectCardType[] = [
       {
         name: "tailwind",
         Icon: Icons.tailwind,
+      },
+    ],
+  },
+  {
+    title: "Guess The Word",
+    preview: GuessTheWord,
+    repository: "https://github.com/EdiedRamos/guess-the-word",
+    deployed: "https://ediedramos.github.io/guess-the-word/",
+    techList: [
+      {
+        name: "html",
+        Icon: Icons.html,
+      },
+      {
+        name: "css",
+        Icon: Icons.css,
+      },
+      {
+        name: "javascript",
+        Icon: Icons.javascript,
       },
     ],
   },
