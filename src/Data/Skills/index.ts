@@ -32,14 +32,14 @@ const Languages: SkillType[] = [
     name: "java",
     Icon: Icons.java,
   },
-  {
-    name: "c++",
-    Icon: Icons.cpp,
-  },
-  {
-    name: "python",
-    Icon: Icons.python,
-  },
+  // {
+  //   name: "c++",
+  //   Icon: Icons.cpp,
+  // },
+  // {
+  //   name: "python",
+  //   Icon: Icons.python,
+  // },
 ];
 
 const Tools: SkillType[] = [
