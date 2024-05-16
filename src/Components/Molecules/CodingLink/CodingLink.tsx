@@ -12,7 +12,7 @@ const CODING_INFO = [
     icon: SiLeetcode,
   },
   {
-    id: "1",
+    id: "2",
     platform: "hackerrank",
     link: "https://www.hackerrank.com/profile/EdiedRamos",
     icon: FaHackerrank,
@@ -23,7 +23,11 @@ export const CodingLink = () => {
   return (
     <div className="coding-link coding-link__container">
       {CODING_INFO.map((info) => (
-        <BaseLink href={info.link} ariaLabel={`my ${info.platform} profile`}>
+        <BaseLink
+          key={info.id}
+          href={info.link}
+          ariaLabel={`my ${info.platform} profile`}
+        >
           <info.icon className="coding-link__icon" />
         </BaseLink>
       ))}
