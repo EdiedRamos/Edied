@@ -6,6 +6,7 @@ import {
   MusicPlayer,
   QrGenerator,
   TicTacToe,
+  UrlShortener,
 } from "@/Resources/Projects";
 
 import { Icons } from "@/General/Icons";
@@ -57,6 +58,26 @@ export const projectList: ProjectCardType[] = [
     preview: CountryQuiz,
     repository: "https://github.com/EdiedRamos/country-quiz",
     deployed: "https://country-quiz-mu.vercel.app/",
+    techList: [
+      {
+        name: "react",
+        Icon: Icons.react,
+      },
+      {
+        name: "typescript",
+        Icon: Icons.typescript,
+      },
+      {
+        name: "sass",
+        Icon: Icons.sass,
+      },
+    ],
+  },
+  {
+    title: "Url Shortener",
+    preview: UrlShortener,
+    repository: "https://github.com/EdiedRamos/url-shortening-api-landing-page",
+    deployed: "https://url-shortening-api-landing-page-tawny.vercel.app/",
     techList: [
       {
         name: "react",
