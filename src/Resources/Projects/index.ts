@@ -6,3 +6,4 @@ export { default as TicTacToe } from "./tic-tac-toe.webp";
 export { default as GithubProfile } from "./github-profile.webp";
 export { default as GuessTheWord } from "./guess-the-word.webp";
 export { default as UrlShortener } from "./url-shortener.webp";
+export { default as NoteCode } from "./notecode.webp";

@@ -9,6 +9,7 @@ import {
   FaReact,
   FaSass,
 } from "react-icons/fa";
+import { IoLogoFirebase, IoLogoJavascript } from "react-icons/io5";
 import {
   SiChakraui,
   SiExpress,
@@ -18,7 +19,6 @@ import {
   SiTypescript,
 } from "react-icons/si";
 
-import { IoLogoJavascript } from "react-icons/io5";
 import { TbBrandCpp } from "react-icons/tb";
 
 export const Icons = {
@@ -33,6 +33,7 @@ export const Icons = {
   react: FaReact,
   sass: FaSass,
   javascript: IoLogoJavascript,
+  firebase: IoLogoFirebase,
   chakraui: SiChakraui,
   express: SiExpress,
   redux: SiRedux,

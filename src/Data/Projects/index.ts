@@ -4,6 +4,7 @@ import {
   GuessTheWord,
   IpTracker,
   MusicPlayer,
+  NoteCode,
   QrGenerator,
   TicTacToe,
   UrlShortener,
@@ -13,6 +14,38 @@ import { Icons } from "@/General/Icons";
 import type { ProjectCardType } from "@/Types";
 
 export const projectList: ProjectCardType[] = [
+  {
+    title: "Code Sharing App",
+    preview: NoteCode,
+    repository: "https://github.com/EdiedRamos/notecode-frontend",
+    deployed: "https://notecode-frontend.vercel.app/",
+    techList: [
+      {
+        name: "react",
+        Icon: Icons.react,
+      },
+      {
+        name: "typescript",
+        Icon: Icons.typescript,
+      },
+      {
+        name: "tailwind",
+        Icon: Icons.tailwind,
+      },
+      {
+        name: "nodejs",
+        Icon: Icons.nodejs,
+      },
+      {
+        name: "expresjs",
+        Icon: Icons.express,
+      },
+      {
+        name: "firebase",
+        Icon: Icons.firebase,
+      },
+    ],
+  },
   {
     title: "Github Profile",
     preview: GithubProfile,
