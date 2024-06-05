@@ -1,4 +1,5 @@
 import {
+  Boardify,
   CountryQuiz,
   GithubProfile,
   GuessTheWord,
@@ -63,6 +64,26 @@ export const projectList: ProjectCardType[] = [
       {
         name: "tailwind",
         Icon: Icons.tailwind,
+      },
+    ],
+  },
+  {
+    title: "Boardify",
+    preview: Boardify,
+    repository: "https://github.com/EdiedRamos/boardify",
+    deployed: "https://boardify-psi.vercel.app/",
+    techList: [
+      {
+        name: "react",
+        Icon: Icons.react,
+      },
+      {
+        name: "typescript",
+        Icon: Icons.typescript,
+      },
+      {
+        name: "chakraui",
+        Icon: Icons.chakraui,
       },
     ],
   },
