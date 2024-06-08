@@ -6,7 +6,7 @@
   grid-template-columns: 1fr;
 
   &__separator {
-    border: 1px solid $red-500;
+    border: 2px solid $red-500;
     width: 80%;
   }
 
@@ -50,7 +50,7 @@
     grid-template-columns: 60% 40%;
 
     &__separator {
-      width: 150px;
+      width: 230px;
     }
 
     &__text {
