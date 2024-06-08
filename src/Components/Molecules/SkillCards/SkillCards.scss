@@ -23,8 +23,15 @@
       background-color: $gray-900;
       padding: 8px;
       width: calc($size * 2);
+
       &:hover .skill-icons__icon {
         animation: dance 1s infinite;
+        color: $gray-900;
+      }
+
+      &:hover {
+        transition: all 500ms;
+        background-color: $red-600;
       }
 
       .skill-icons__icon {
