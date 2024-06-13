@@ -3,6 +3,7 @@ import {
   CountryQuiz,
   GithubProfile,
   GuessTheWord,
+  ImageUpload,
   IpTracker,
   MusicPlayer,
   NoteCode,
@@ -15,6 +16,26 @@ import { Icons } from "@/General/Icons";
 import type { ProjectCardType } from "@/Types";
 
 export const projectList: ProjectCardType[] = [
+  {
+    title: "Image Upload",
+    preview: ImageUpload,
+    repository: "https://github.com/EdiedRamos/image-upload",
+    deployed: "https://image-upload-azure.vercel.app/uploader",
+    techList: [
+      {
+        name: "nextjs",
+        Icon: Icons.nextjs,
+      },
+      {
+        name: "typescript",
+        Icon: Icons.typescript,
+      },
+      {
+        name: "tailwind",
+        Icon: Icons.tailwind,
+      },
+    ],
+  },
   {
     title: "Code Sharing App",
     preview: NoteCode,

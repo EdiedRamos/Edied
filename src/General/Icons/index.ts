@@ -18,8 +18,7 @@ import {
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
-
-import { TbBrandCpp } from "react-icons/tb";
+import { TbBrandCpp, TbBrandNextjs } from "react-icons/tb";
 
 export const Icons = {
   bootstrap: FaBootstrap,
@@ -31,6 +30,7 @@ export const Icons = {
   nodejs: FaNodeJs,
   python: FaPython,
   react: FaReact,
+  nextjs: TbBrandNextjs,
   sass: FaSass,
   javascript: IoLogoJavascript,
   firebase: IoLogoFirebase,
