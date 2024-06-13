@@ -43,6 +43,7 @@ const Languages: SkillType[] = [
 ];
 
 const Tools: SkillType[] = [
+  { name: "nextjs", Icon: Icons.nextjs },
   {
     name: "react",
     Icon: Icons.react,
