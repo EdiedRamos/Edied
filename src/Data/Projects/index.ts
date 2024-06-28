@@ -84,12 +84,16 @@ export const projectList: ProjectCardType[] = [
         Icon: Icons.typescript,
       },
       {
-        name: "tailwind",
-        Icon: Icons.tailwind,
+        name: "redux",
+        Icon: Icons.redux,
       },
       {
         name: "axios",
         Icon: Icons.axios,
+      },
+      {
+        name: "tailwind",
+        Icon: Icons.tailwind,
       },
     ],
   },
