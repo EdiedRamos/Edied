@@ -88,6 +88,10 @@ const Tools: SkillType[] = [
     name: "firebase",
     Icon: Icons.firebase,
   },
+  {
+    name: "axios",
+    Icon: Icons.axios,
+  },
 ];
 
 export const skillList: SkillListType[] = [

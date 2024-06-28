@@ -11,6 +11,7 @@ import {
 } from "react-icons/fa";
 import { IoLogoFirebase, IoLogoJavascript } from "react-icons/io5";
 import {
+  SiAxios,
   SiChakraui,
   SiExpress,
   SiRedux,
@@ -32,6 +33,7 @@ export const Icons = {
   react: FaReact,
   nextjs: TbBrandNextjs,
   sass: FaSass,
+  axios: SiAxios,
   javascript: IoLogoJavascript,
   firebase: IoLogoFirebase,
   chakraui: SiChakraui,
