@@ -10,6 +10,7 @@ import {
   QrGenerator,
   TicTacToe,
   UrlShortener,
+  WorldRanks,
 } from "@/Resources/Projects";
 
 import { Icons } from "@/General/Icons";
@@ -65,6 +66,26 @@ export const projectList: ProjectCardType[] = [
       {
         name: "firebase",
         Icon: Icons.firebase,
+      },
+    ],
+  },
+  {
+    title: "World Ranks",
+    preview: WorldRanks,
+    repository: "https://github.com/EdiedRamos/country-page",
+    deployed: "https://country-page-phi.vercel.app/countries",
+    techList: [
+      {
+        name: "react",
+        Icon: Icons.react,
+      },
+      {
+        name: "typescript",
+        Icon: Icons.typescript,
+      },
+      {
+        name: "tailwind",
+        Icon: Icons.tailwind,
       },
     ],
   },

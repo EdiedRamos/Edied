@@ -9,3 +9,4 @@ export { default as NoteCode } from "./notecode.webp";
 export { default as QrGenerator } from "./qr-generator.webp";
 export { default as TicTacToe } from "./tic-tac-toe.webp";
 export { default as UrlShortener } from "./url-shortener.webp";
+export { default as WorldRanks } from "./worldranks.webp";
