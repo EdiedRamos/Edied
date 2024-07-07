@@ -92,6 +92,10 @@ const Tools: SkillType[] = [
     name: "axios",
     Icon: Icons.axios,
   },
+  {
+    name: "zod",
+    Icon: Icons.zod,
+  },
 ];
 
 export const skillList: SkillListType[] = [
