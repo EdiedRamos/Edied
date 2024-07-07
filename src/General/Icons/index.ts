@@ -18,6 +18,7 @@ import {
   SiStyledcomponents,
   SiTailwindcss,
   SiTypescript,
+  SiZod,
 } from "react-icons/si";
 import { TbBrandCpp, TbBrandNextjs } from "react-icons/tb";
 
@@ -42,4 +43,5 @@ export const Icons = {
   styled: SiStyledcomponents,
   typescript: SiTypescript,
   cpp: TbBrandCpp,
+  zod: SiZod,
 };

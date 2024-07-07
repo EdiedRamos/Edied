@@ -6,6 +6,7 @@ import {
   ImageUpload,
   IpTracker,
   MusicPlayer,
+  MyTaskBoard,
   NoteCode,
   QrGenerator,
   TicTacToe,
@@ -34,6 +35,34 @@ export const projectList: ProjectCardType[] = [
       {
         name: "tailwind",
         Icon: Icons.tailwind,
+      },
+    ],
+  },
+  {
+    title: "My Task Board",
+    preview: MyTaskBoard,
+    repository: "https://github.com/EdiedRamos/my-task-board",
+    deployed: "https://my-task-board-five.vercel.app/board/my-task-board",
+    techList: [
+      {
+        name: "nextjs",
+        Icon: Icons.nextjs,
+      },
+      {
+        name: "typescript",
+        Icon: Icons.typescript,
+      },
+      {
+        name: "tailwind",
+        Icon: Icons.tailwind,
+      },
+      {
+        name: "firebase",
+        Icon: Icons.firebase,
+      },
+      {
+        name: "zod",
+        Icon: Icons.zod,
       },
     ],
   },
