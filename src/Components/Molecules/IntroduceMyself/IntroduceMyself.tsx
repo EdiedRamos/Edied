@@ -1,17 +1,17 @@
-import { MyFace } from "@/Components/Atoms";
-import { HomeText } from "@/Data/Text";
-
 import "./IntroduceMyself.scss";
 
+import { MyFace } from "@/Components/Atoms";
+import { useTranslation } from "react-i18next";
+
 export const IntroduceMyself = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="introduce-myself container">
       <div className="introduce-myself__text">
-        <h1>
-          {HomeText.title.first} <span>{HomeText.title.second}</span>
-        </h1>
+        <h1>{t("home.introduce.role")}</h1>
         <div className="introduce-myself__separator" />
-        <p>{HomeText.introduce}</p>
+        <p>{t("home.introduce.about")}</p>
       </div>
       <MyFace />
     </div>
