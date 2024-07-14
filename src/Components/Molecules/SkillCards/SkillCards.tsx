@@ -1,15 +1,17 @@
+import "./SkillCards.scss";
+
 import { Title } from "@/Components/Atoms";
 import { skillList } from "@/Data/Skills";
-
-import "./SkillCards.scss";
-import { SkillsText } from "@/Data/Text";
+import { useTranslation } from "react-i18next";
 
 export const SkillCards = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="container skill-container">
       {skillList.map((skill) => (
         <article key={skill.id}>
-          <Title>{SkillsText[skill.id]}</Title>
+          <Title>{t(`skills.${skill.id}`)}</Title>
           <div className="skill-icons">
             {skill.content.map(({ name, Icon }) => (
               <div key={name} className="skill-icons__container">

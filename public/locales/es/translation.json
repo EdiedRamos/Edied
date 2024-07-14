@@ -10,5 +10,9 @@
     "skills": "Habilidades",
     "projects": "Proyectos",
     "contact": "Contacto"
+  },
+  "skills": {
+    "languages": "Lenguajes",
+    "tools": "Herramientas"
   }
 }
