@@ -14,5 +14,9 @@
   "skills": {
     "languages": "Languages",
     "tools": "Tools"
+  },
+  "projects": {
+    "title": "Projects",
+    "more": "More projects coming soon. 😉😁"
   }
 }

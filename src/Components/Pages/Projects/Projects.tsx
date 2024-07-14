@@ -1,16 +1,18 @@
-import { ROUTE_URLS } from "@/Domain/Constants/urls";
+import "./Projects.scss";
 
 import { SectionSetup, Title } from "@/Components/Atoms";
-import { ProjectCards } from "@/Components/Organisms";
 
-import "./Projects.scss";
-import { ProjectsText } from "@/Data/Text";
+import { ProjectCards } from "@/Components/Organisms";
+import { ROUTE_URLS } from "@/Domain/Constants/urls";
+import { useTranslation } from "react-i18next";
 
 const Projects = () => {
+  const { t } = useTranslation();
+
   return (
     <SectionSetup className="projects-section" id={ROUTE_URLS.PROJECTS}>
       <article className="container">
-        <Title>{ProjectsText.title}</Title>
+        <Title>{t("projects.title")}</Title>
         <ProjectCards />
         <p
           style={{
@@ -18,7 +20,7 @@ const Projects = () => {
             marginTop: "1.2rem",
           }}
         >
-          {ProjectsText.moreProjects}
+          {t("projects.more")}
         </p>
       </article>
     </SectionSetup>
