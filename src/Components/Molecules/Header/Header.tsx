@@ -1,9 +1,11 @@
-import { HeaderText } from "@/Data/Text";
-import { headerData } from "../../../Data/Header";
-
 import "./Header.scss";
 
+import { headerData } from "../../../Data/Header";
+import { useTranslation } from "react-i18next";
+
 export const Header = () => {
+  const { t } = useTranslation();
+
   return (
     <header className="header">
       <ul className="header__list">
@@ -13,7 +15,7 @@ export const Header = () => {
               <a title={name} href={`#${redirect}`}>
                 <Icon />
               </a>
-              <p>{HeaderText[name]}</p>
+              <p>{t(`header.${name}`)}</p>
             </div>
           </li>
         ))}

@@ -4,5 +4,11 @@
       "role": "Desarrollador Fullstack",
       "about": "¡Hola! Soy Edied Isaías Ramos Hernández, y mi fascinación radica en el mundo del frontend. Me especializo en la creación de experiencias digitales excepcionales. Con habilidades especializadas en React, convierto ideas en interfaces atractivas y optimizadas listas para impresionar a los usuarios."
     }
+  },
+  "header": {
+    "about": "Acerca",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "contact": "Contacto"
   }
 }
