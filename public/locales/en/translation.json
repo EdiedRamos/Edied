@@ -18,5 +18,8 @@
   "projects": {
     "title": "Projects",
     "more": "More projects coming soon. 😉😁"
+  },
+  "contact": {
+    "title": "Contact"
   }
 }
