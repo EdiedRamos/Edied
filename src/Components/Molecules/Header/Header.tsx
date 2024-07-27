@@ -1,5 +1,6 @@
 import "./Header.scss";
 
+import { default as Logo } from "../../../../public/logo.png";
 import { headerData } from "../../../Data/Header";
 import { useLanguage } from "@/Core";
 import { useTranslation } from "react-i18next";
@@ -14,7 +15,7 @@ export const Header = () => {
         width={30}
         height={30}
         className="header__logo"
-        src="/public/logo.png"
+        src={Logo}
         alt="EdiedRamos logo"
       />
       <ul className="header__list">
