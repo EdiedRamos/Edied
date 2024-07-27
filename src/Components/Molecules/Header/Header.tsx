@@ -1,6 +1,6 @@
 import "./Header.scss";
 
-import { default as Logo } from "../../../../public/logo.png";
+import { Logo } from "@/Resources/Icons";
 import { headerData } from "../../../Data/Header";
 import { useLanguage } from "@/Core";
 import { useTranslation } from "react-i18next";
