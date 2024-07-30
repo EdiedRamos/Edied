@@ -2,7 +2,6 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 import type { IconType } from "react-icons";
 import { SiGmail } from "react-icons/si";
-import { TbFileCv } from "react-icons/tb";
 
 type ContactT = {
   name: string;
@@ -26,9 +25,9 @@ export const contactList: ContactT[] = [
     href: "mailto:edieisa22@gmail.com",
     Icon: SiGmail,
   },
-  {
-    name: "cv",
-    href: "https://drive.google.com/file/d/18Zw_IV6JV3j6t5B0LYGSMP209AQjAohT/view?usp=sharing",
-    Icon: TbFileCv,
-  },
 ];
+
+export const interCv = {
+  es: "https://drive.google.com/file/d/1UdVFICqKSjhcnaaGtNk-572oSqqdw7QW/view?usp=sharing",
+  en: "https://drive.google.com/file/d/1zrjBCW22USWqzawV2k0c4IDXNrtaDi9N/view?usp=sharing",
+};
