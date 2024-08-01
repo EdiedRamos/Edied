@@ -1,11 +1,4 @@
-import {
-  CountryQuiz,
-  ImageUpload,
-  MyTaskBoard,
-  NoteCode,
-  UrlShortener,
-  WorldRanks,
-} from "@/Resources/Projects";
+import { ImageUpload, MyTaskBoard, NoteCode } from "@/Resources/Projects";
 
 import { Icons } from "@/General/Icons";
 import type { ProjectCardType } from "@/Types";
@@ -88,74 +81,6 @@ export const projectList: ProjectCardType[] = [
       {
         name: "firebase",
         Icon: Icons.firebase,
-      },
-    ],
-  },
-  {
-    title: "Url Shortener",
-    preview: UrlShortener,
-    repository: "https://github.com/EdiedRamos/url-shortening-api-landing-page",
-    deployed: "https://url-shortening-api-landing-page-tawny.vercel.app/",
-    techList: [
-      {
-        name: "react",
-        Icon: Icons.react,
-      },
-      {
-        name: "typescript",
-        Icon: Icons.typescript,
-      },
-      {
-        name: "sass",
-        Icon: Icons.sass,
-      },
-    ],
-  },
-  {
-    title: "World Ranks",
-    preview: WorldRanks,
-    repository: "https://github.com/EdiedRamos/country-page",
-    deployed: "https://country-page-phi.vercel.app/countries",
-    techList: [
-      {
-        name: "react",
-        Icon: Icons.react,
-      },
-      {
-        name: "typescript",
-        Icon: Icons.typescript,
-      },
-      {
-        name: "redux",
-        Icon: Icons.redux,
-      },
-      {
-        name: "axios",
-        Icon: Icons.axios,
-      },
-      {
-        name: "tailwind",
-        Icon: Icons.tailwind,
-      },
-    ],
-  },
-  {
-    title: "Country Quiz",
-    preview: CountryQuiz,
-    repository: "https://github.com/EdiedRamos/country-quiz",
-    deployed: "https://country-quiz-mu.vercel.app/",
-    techList: [
-      {
-        name: "react",
-        Icon: Icons.react,
-      },
-      {
-        name: "typescript",
-        Icon: Icons.typescript,
-      },
-      {
-        name: "sass",
-        Icon: Icons.sass,
       },
     ],
   },
