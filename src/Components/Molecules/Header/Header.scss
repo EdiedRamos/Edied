@@ -59,8 +59,8 @@
     align-items: center;
     gap: 1.5rem;
     animation: show 500ms backwards;
-    border-top: 2px solid $red-800;
-    background-color: $gray-900;
+    border-radius: 0 0 1rem 1rem;
+    background-color: $primary;
     padding: 2rem 0;
     width: 100%;
   }
