@@ -24,8 +24,8 @@ export const Header = () => {
   return (
     <header className="header container">
       <img
-        width={35}
-        height={35}
+        width={50}
+        height={50}
         className="header__logo"
         src={Logo}
         alt="EdiedRamos logo"

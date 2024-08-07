@@ -14,10 +14,8 @@
 
   &__logo {
     -webkit-user-drag: none;
-    outline: 2px solid $red-600;
-    outline-offset: 3px;
-    border: 2px solid $red-700;
-    border-radius: 8px;
+    // border: 2px solid $red-700;
+    border-radius: 4px;
   }
 
   &__desktop__list {
@@ -33,17 +31,17 @@
       a {
         -webkit-user-drag: none;
         transition: all 200ms;
-        outline: 2px solid $red-600;
-        outline-offset: 3px;
-        border: 2px solid $red-600;
         border-radius: 8px;
+        background-color: $cyan-900;
         padding: 8px 10px;
+        min-width: 100px;
         color: $gray-50;
         font-size: $font-size-7;
+        text-align: center;
         text-decoration: none;
 
         &:hover {
-          background-color: $red-700;
+          background-color: $gray-shadow-80;
         }
       }
     }
