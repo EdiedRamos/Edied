@@ -2,7 +2,6 @@
 @import "@/General/Styles/Fonts/fonts";
 
 .header {
-  $rotation: 10deg;
   display: flex;
   position: relative;
   flex-wrap: wrap;
@@ -11,13 +10,14 @@
   z-index: 999;
   margin: auto;
   border-radius: 0 0 8px 8px;
-  background-color: $gray-900;
   padding: 16px 18px;
 
   &__logo {
     -webkit-user-drag: none;
-    border-radius: 5px;
-    padding: 5px;
+    outline: 2px solid $red-700;
+    outline-offset: 3px;
+    border: 1px solid $red-700;
+    border-radius: 8px;
   }
 
   &__desktop__list {
@@ -39,7 +39,7 @@
         text-decoration: none;
 
         &:hover {
-          color: $red-500;
+          color: $red-600;
         }
       }
     }
@@ -65,14 +65,20 @@
     button {
       transition: all 200ms;
       border: none;
+      border: 2px solid $red-700;
       border-radius: 8px;
-      background-color: $blue-600;
-      padding: 6px;
+      background-color: inherit;
+      padding: 8px 10px;
       color: $gray-50;
 
       &:hover {
-        transform: scale(0.9) rotate(-$rotation);
+        transform: scale(0.9) rotate(-5deg);
         cursor: pointer;
+        background-color: $red-700;
+      }
+
+      &:active {
+        transform: scale(0.8) rotate(-5deg);
       }
     }
   }

@@ -22,10 +22,10 @@ export const Header = () => {
   };
 
   return (
-    <header className="header">
+    <header className="header container">
       <img
-        width={40}
-        height={40}
+        width={35}
+        height={35}
         className="header__logo"
         src={Logo}
         alt="EdiedRamos logo"
@@ -55,9 +55,9 @@ export const Header = () => {
       <div className="header__group">
         <div className="header__language">
           {language === "es" ? (
-            <button onClick={handleLanguage().toEnglish}>EN</button>
+            <button onClick={handleLanguage().toEnglish}>English</button>
           ) : (
-            <button onClick={handleLanguage().toSpanish}>ES</button>
+            <button onClick={handleLanguage().toSpanish}>Español</button>
           )}
         </div>
         <div className="mobile-list--toggle">
