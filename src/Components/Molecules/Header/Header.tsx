@@ -54,11 +54,14 @@ export const Header = () => {
       </ul>
       <div className="header__group">
         <div className="header__language">
-          {language === "es" ? (
-            <button onClick={handleLanguage().toEnglish}>English</button>
-          ) : (
-            <button onClick={handleLanguage().toSpanish}>Español</button>
-          )}
+          <button
+            onClick={
+              handleLanguage()[language === "es" ? "toEnglish" : "toSpanish"]
+            }
+          >
+            {Icons.worldIcon({ size: 18 })}{" "}
+            {language === "es" ? "English" : "Español"}
+          </button>
         </div>
         <div className="mobile-list--toggle">
           <button onClick={handleToggle}>

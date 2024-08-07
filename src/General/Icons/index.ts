@@ -24,7 +24,7 @@ import {
   SiTypescript,
   SiZod,
 } from "react-icons/si";
-import { TbBrandCpp, TbBrandNextjs } from "react-icons/tb";
+import { TbBrandCpp, TbBrandNextjs, TbWorld } from "react-icons/tb";
 
 import { RxHamburgerMenu } from "react-icons/rx";
 
@@ -52,4 +52,5 @@ export const Icons = {
   zod: SiZod,
   burgerMenu: RxHamburgerMenu,
   closeSharp: IoCloseSharp,
+  worldIcon: TbWorld,
 };
