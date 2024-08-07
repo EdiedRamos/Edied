@@ -33,13 +33,17 @@
       a {
         -webkit-user-drag: none;
         transition: all 200ms;
+        outline: 2px solid $red-600;
+        outline-offset: 3px;
+        border: 2px solid $red-600;
         border-radius: 8px;
+        padding: 8px 10px;
         color: $gray-50;
         font-size: $font-size-7;
         text-decoration: none;
 
         &:hover {
-          color: $red-600;
+          background-color: $red-700;
         }
       }
     }
@@ -136,7 +140,7 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 16px;
+      gap: 1.5rem;
       padding: 8px 0;
     }
   }
