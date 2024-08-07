@@ -9,7 +9,11 @@ import {
   FaReact,
   FaSass,
 } from "react-icons/fa";
-import { IoLogoFirebase, IoLogoJavascript } from "react-icons/io5";
+import {
+  IoCloseSharp,
+  IoLogoFirebase,
+  IoLogoJavascript,
+} from "react-icons/io5";
 import {
   SiAxios,
   SiChakraui,
@@ -21,6 +25,8 @@ import {
   SiZod,
 } from "react-icons/si";
 import { TbBrandCpp, TbBrandNextjs } from "react-icons/tb";
+
+import { RxHamburgerMenu } from "react-icons/rx";
 
 export const Icons = {
   bootstrap: FaBootstrap,
@@ -44,4 +50,6 @@ export const Icons = {
   typescript: SiTypescript,
   cpp: TbBrandCpp,
   zod: SiZod,
+  burgerMenu: RxHamburgerMenu,
+  closeSharp: IoCloseSharp,
 };

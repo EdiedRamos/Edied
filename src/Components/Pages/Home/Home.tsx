@@ -1,8 +1,8 @@
-import { ROUTE_URLS } from "@/Domain/Constants/urls";
+import "./Home.scss";
 
 import { ContactCards, IntroduceMyself } from "@/Components/Molecules";
 
-import "./Home.scss";
+import { ROUTE_URLS } from "@/Domain/Constants/urls";
 
 const Home = () => {
   return (

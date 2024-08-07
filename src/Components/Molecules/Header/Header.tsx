@@ -1,5 +1,8 @@
 import "./Header.scss";
 
+import { useRef, useState } from "react";
+
+import { Icons } from "@/General/Icons";
 import { Logo } from "@/Resources/Icons";
 import { headerData } from "../../../Data/Header";
 import { useLanguage } from "@/Core";
@@ -9,32 +12,59 @@ export const Header = () => {
   const { t } = useTranslation();
   const { language, handleLanguage } = useLanguage();
 
+  const [showMenu, setShowMenu] = useState<boolean>(false);
+  const mobileMenuRef = useRef<HTMLUListElement | null>(null);
+
+  const handleToggle = () => {
+    if (!mobileMenuRef.current) return;
+    mobileMenuRef.current.classList.toggle("hide");
+    setShowMenu((prev) => !prev);
+  };
+
   return (
     <header className="header">
       <img
-        width={30}
-        height={30}
+        width={40}
+        height={40}
         className="header__logo"
         src={Logo}
         alt="EdiedRamos logo"
       />
-      <ul className="header__list">
+      <ul ref={mobileMenuRef} className="header__mobile__list hide">
         {headerData.map(({ id, name, redirect }) => (
           <li className="header__list__item" key={id}>
             <div className="header__list__item__container">
-              <a title={name} href={`#${redirect}`}>
-                <p>{t(`header.${name}`)}</p>
+              <a onClick={handleToggle} title={name} href={`#${redirect}`}>
+                {t(`header.${name}`)}
               </a>
             </div>
           </li>
         ))}
       </ul>
-      <div className="header__language">
-        {language === "es" ? (
-          <button onClick={handleLanguage().toEnglish}>EN</button>
-        ) : (
-          <button onClick={handleLanguage().toSpanish}>ES</button>
-        )}
+      <ul className="header__desktop__list">
+        {headerData.map(({ id, name, redirect }) => (
+          <li className="header__list__item" key={id}>
+            <div className="header__list__item__container">
+              <a title={name} href={`#${redirect}`}>
+                {t(`header.${name}`)}
+              </a>
+            </div>
+          </li>
+        ))}
+      </ul>
+      <div className="header__group">
+        <div className="header__language">
+          {language === "es" ? (
+            <button onClick={handleLanguage().toEnglish}>EN</button>
+          ) : (
+            <button onClick={handleLanguage().toSpanish}>ES</button>
+          )}
+        </div>
+        <div className="mobile-list--toggle">
+          <button onClick={handleToggle}>
+            {Icons[showMenu ? "closeSharp" : "burgerMenu"]({ size: 25 })}
+          </button>
+        </div>
       </div>
     </header>
   );
