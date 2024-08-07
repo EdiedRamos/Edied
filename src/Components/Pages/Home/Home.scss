@@ -1,5 +1,6 @@
 .home-section {
-  $height: 100vh;
+  $header-height: 85px;
+  $height: calc(100dvh - $header-height);
   min-height: $height;
 
   &__container,

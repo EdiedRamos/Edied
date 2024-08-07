@@ -1,7 +1,6 @@
 import "./Home.scss";
 
-import { ContactCards, IntroduceMyself } from "@/Components/Molecules";
-
+import { IntroduceMyself } from "@/Components/Molecules";
 import { ROUTE_URLS } from "@/Domain/Constants/urls";
 
 const Home = () => {
@@ -11,9 +10,6 @@ const Home = () => {
       className="home-section home-section__container"
     >
       <div className="home-section__content">
-        <div style={{ margin: "1.5rem 0" }}>
-          <ContactCards />
-        </div>
         <IntroduceMyself />
       </div>
     </section>

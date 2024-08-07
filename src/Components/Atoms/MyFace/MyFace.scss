@@ -11,23 +11,13 @@
     position: relative;
     transition: all 500ms;
     margin-top: 70px;
-    outline: 16px solid $gray-shadow-80;
-    border-radius: 40px 40px 20px 20px;
-    background: linear-gradient(
-      -25deg,
-      $red-700,
-      $red-800,
-      $red-900,
-      $red-800,
-      $red-700
-    );
-    background-color: $red-600;
+    outline: 3px solid $red-800;
+    outline-offset: 5px;
+    border: 3px solid $red-700;
+    border-radius: 20px;
+    background-color: $red-800;
     width: 250px;
     height: 180px;
-
-    &:hover {
-      outline-color: $gray-shadow-10;
-    }
   }
 
   &__img {

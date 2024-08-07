@@ -1,7 +1,6 @@
-import { CodingLink } from "@/Components/Molecules";
-import { Profile } from "../../../Resources/Profile";
-
 import "./MyFace.scss";
+
+import { Profile } from "../../../Resources/Profile";
 
 export const MyFace = () => {
   return (
@@ -15,7 +14,6 @@ export const MyFace = () => {
           src={Profile}
           alt="Edied's Face"
         />
-        <CodingLink />
       </div>
     </div>
   );

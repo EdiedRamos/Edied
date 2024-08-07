@@ -10,7 +10,6 @@ export const IntroduceMyself = () => {
     <div className="introduce-myself container">
       <div className="introduce-myself__text">
         <h1>{t("home.introduce.role")}</h1>
-        <div className="introduce-myself__separator" />
         <p>{t("home.introduce.about")}</p>
       </div>
       <MyFace />
