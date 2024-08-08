@@ -41,6 +41,20 @@
   }
 }
 
+#my-name,
+#my-role {
+  color: $red-300;
+  font-weight: bold;
+}
+
+#description-react {
+  font-style: italic;
+}
+
+#description-react {
+  color: $blue-300;
+}
+
 @media (width >= 992px) {
   .introduce-myself {
     grid-template-columns: 60% 40%;
