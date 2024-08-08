@@ -13,7 +13,8 @@
     "contact": "Contact"
   },
   "skills": {
-    "languages": "Languages",
+    "frontend": "Frontend",
+    "backend": "Backend",
     "tools": "Tools"
   },
   "projects": {

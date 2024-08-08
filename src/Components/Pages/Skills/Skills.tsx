@@ -1,9 +1,8 @@
-import { ROUTE_URLS } from "@/Domain/Constants/urls";
+import "./Skills.scss";
 
+import { ROUTE_URLS } from "@/Domain/Constants/urls";
 import { SectionSetup } from "@/Components/Atoms";
 import { SkillCards } from "@/Components/Molecules";
-
-import "./Skills.scss";
 
 const Skills = (): JSX.Element => {
   return (

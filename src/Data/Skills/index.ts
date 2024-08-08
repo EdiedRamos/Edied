@@ -1,17 +1,20 @@
 import type { IconType } from "react-icons";
 import { Icons } from "@/General/Icons";
 
-type SkillType = {
+type SkillType = "frontend" | "backend" | "tools";
+
+interface Skill {
   name: string;
   Icon: IconType;
-};
+}
 
-type SkillListType = {
-  id: "languages" | "tools";
-  content: SkillType[];
-};
+interface SkillsType {
+  id: string;
+  type: SkillType;
+  content: Skill[];
+}
 
-const Languages: SkillType[] = [
+const Frontend: Skill[] = [
   {
     name: "html",
     Icon: Icons.html,
@@ -28,21 +31,6 @@ const Languages: SkillType[] = [
     name: "typescript",
     Icon: Icons.typescript,
   },
-  {
-    name: "java",
-    Icon: Icons.java,
-  },
-  // {
-  //   name: "c++",
-  //   Icon: Icons.cpp,
-  // },
-  // {
-  //   name: "python",
-  //   Icon: Icons.python,
-  // },
-];
-
-const Tools: SkillType[] = [
   { name: "nextjs", Icon: Icons.nextjs },
   {
     name: "react",
@@ -72,10 +60,9 @@ const Tools: SkillType[] = [
     name: "chakra-UI",
     Icon: Icons.chakraui,
   },
-  {
-    name: "git",
-    Icon: Icons.git,
-  },
+];
+
+const Backend: Skill[] = [
   {
     name: "nodejs",
     Icon: Icons.nodejs,
@@ -88,6 +75,13 @@ const Tools: SkillType[] = [
     name: "firebase",
     Icon: Icons.firebase,
   },
+];
+
+const Tools: Skill[] = [
+  {
+    name: "git",
+    Icon: Icons.git,
+  },
   {
     name: "axios",
     Icon: Icons.axios,
@@ -98,13 +92,20 @@ const Tools: SkillType[] = [
   },
 ];
 
-export const skillList: SkillListType[] = [
+export const skillList: SkillsType[] = [
   {
-    id: "languages",
-    content: Languages,
+    id: "a7244d7c-2eaa-4584-93a1-8ba497723cd7",
+    type: "frontend",
+    content: Frontend,
   },
   {
-    id: "tools",
+    id: "ceff831c-9eea-4c23-967e-57aa12d76e05",
+    type: "backend",
+    content: Backend,
+  },
+  {
+    id: "e1fa1a3d-2db0-4e66-b307-95a8927d683e",
+    type: "tools",
     content: Tools,
   },
 ];

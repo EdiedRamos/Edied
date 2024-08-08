@@ -11,7 +11,7 @@ export const SkillCards = () => {
     <div className="container skill-container">
       {skillList.map((skill) => (
         <article key={skill.id}>
-          <Title>{t(`skills.${skill.id}`)}</Title>
+          <Title>{t(`skills.${skill.type}`)}</Title>
           <div className="skill-icons">
             {skill.content.map(({ name, Icon }) => (
               <div key={name} className="skill-icons__container">
