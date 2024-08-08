@@ -1,0 +1,28 @@
+@import "/src/General/Styles/Fonts/fonts";
+@import "/src/General/Styles/Colors/colors";
+
+.cv__container {
+  display: inline-block;
+  position: relative;
+  bottom: -220px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    outline: 2px solid $red-700;
+    outline-offset: 3px;
+    border-radius: 8px;
+    background-color: $red-700;
+    padding: 5px 8px;
+    color: $gray-50;
+    font-size: $font-size-7;
+    text-decoration: none;
+
+    &:hover {
+      background-color: $red-700;
+    }
+  }
+}

@@ -1,10 +1,12 @@
 @import "/src/General/Styles/Colors/colors";
+@import "/src/General/Styles/Fonts/fonts";
 
 .my-face {
   &__container {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2rem;
   }
 
   &__box {
@@ -43,6 +45,7 @@
   .my-face {
     &__container {
       justify-content: flex-end;
+      margin-bottom: 0;
     }
 
     &__box {

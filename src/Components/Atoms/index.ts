@@ -5,3 +5,4 @@ export { MyFace } from "./MyFace/MyFace";
 export { ProjectTools } from "./ProjectTools/ProjectTools";
 export { SectionSetup } from "./SectionSetup/SectionSetup";
 export { Title } from "./Title/Title";
+export * from "./Resume/Resume";

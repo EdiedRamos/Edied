@@ -1,10 +1,11 @@
 import "./MyFace.scss";
 
 import { Profile } from "../../../Resources/Profile";
+import { Resume } from "@/Components/Atoms";
 
 export const MyFace = () => {
   return (
-    <div className="my-face my-face__container">
+    <article className="my-face my-face__container">
       <div className="my-face__box">
         <img
           fetchpriority="high"
@@ -14,7 +15,8 @@ export const MyFace = () => {
           src={Profile}
           alt="Edied's Face"
         />
+        <Resume />
       </div>
-    </div>
+    </article>
   );
 };
