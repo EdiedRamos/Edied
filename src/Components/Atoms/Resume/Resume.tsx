@@ -9,6 +9,7 @@ export const Resume = () => {
   return (
     <div className="cv__container">
       <a
+        aria-label="resume anchor link"
         href={interCv[i18n.language as "es" | "en"]}
         target="_blank"
         rel="noreferrer"

@@ -55,6 +55,7 @@ export const Header = () => {
       <div className="header__group">
         <div className="header__language">
           <button
+            aria-label="language toggle button"
             onClick={
               handleLanguage()[language === "es" ? "toEnglish" : "toSpanish"]
             }
@@ -64,7 +65,7 @@ export const Header = () => {
           </button>
         </div>
         <div className="mobile-list--toggle">
-          <button onClick={handleToggle}>
+          <button aria-label="mobile menu toggle" onClick={handleToggle}>
             {Icons[showMenu ? "closeSharp" : "burgerMenu"]({ size: 25 })}
           </button>
         </div>
