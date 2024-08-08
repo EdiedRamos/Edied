@@ -6,3 +6,4 @@ export { ProjectTools } from "./ProjectTools/ProjectTools";
 export { SectionSetup } from "./SectionSetup/SectionSetup";
 export { Title } from "./Title/Title";
 export * from "./Resume/Resume";
+export * from "./Subtitle/Subtitle";

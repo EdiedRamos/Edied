@@ -10,7 +10,7 @@
   position: relative;
   margin: 2rem 0;
   color: $gray-100;
-  font-size: $font-size-5;
+  font-size: $font-size-4;
   text-align: center;
 
   &::before {
@@ -20,9 +20,12 @@
     transform: rotate(10deg);
     z-index: -1;
     transition: all 500ms;
+    outline: 2px solid $red-700;
+    outline-offset: 3px;
+    border: 2px solid $red-700;
     border-radius: 8px;
     background-color: $red-700;
-    width: 10px;
+    width: 5px;
     height: 100%;
     content: "";
   }
@@ -31,6 +34,7 @@
     $offset: 15px;
     left: -$offset;
     transform: none;
+    background-color: inherit;
     width: calc(100% + (2 * $offset));
   }
 }
