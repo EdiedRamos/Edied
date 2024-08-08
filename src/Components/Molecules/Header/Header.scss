@@ -77,12 +77,12 @@
       font-size: $font-size-7;
 
       &:hover {
-        transform: scale(0.9);
+        transform: scale(0.95);
         cursor: pointer;
       }
 
       &:active {
-        transform: scale(0.8);
+        transform: scale(0.9);
       }
     }
   }
@@ -90,7 +90,7 @@
 
 .mobile-list--toggle {
   &:hover button {
-    transform: scale(0.9);
+    transform: scale(0.95);
     cursor: pointer;
   }
 
@@ -106,7 +106,7 @@
     color: $gray-100;
 
     &:active {
-      transform: scale(0.8);
+      transform: scale(0.9);
     }
   }
 }
