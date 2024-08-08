@@ -1,11 +1,11 @@
 import "./Resume.scss";
 
 import { TbFileCv } from "react-icons/tb";
-import i18n from "@/i18n";
 import { interCv } from "@/Data/Contact";
-import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 export const Resume = () => {
+  const { i18n, t } = useTranslation();
   return (
     <div className="cv__container">
       <a
