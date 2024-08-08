@@ -2,7 +2,7 @@
   "home": {
     "introduce": {
       "role": "Desarrollador Frontend",
-      "about": "¡Hola! Soy <span id='my-name'>Edied Isaías Ramos Hernández</span>, y mi fascinación radica en el mundo del <span id='my-role'>Frontend</span>. Me especializo en la creación de experiencias digitales excepcionales. Con habilidades especializadas en <span id='description-react'>React</span>, convierto ideas en interfaces atractivas y optimizadas listas para impresionar a los usuarios."
+      "about": "¡Hola! Soy <span id='my-name'>Edied Isaías Ramos Hernández</span>, y mi fascinación radica en el mundo del Frontend. Me especializo en la creación de experiencias digitales excepcionales. Con habilidades especializadas en React, convierto ideas en interfaces atractivas y optimizadas listas para impresionar a los usuarios."
     },
     "cv": "Hoja de vida"
   },
