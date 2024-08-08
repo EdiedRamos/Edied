@@ -15,8 +15,7 @@
     margin-top: 70px;
     outline: 3px solid $red-800;
     outline-offset: 5px;
-    border: 3px solid $red-700;
-    border-radius: 20px;
+    border-radius: 8px;
     background-color: $red-800;
     width: 250px;
     height: 180px;
@@ -28,7 +27,7 @@
     bottom: 0;
     left: 50%;
     transform: translate(-50%);
-    border-radius: 20px;
+    border-radius: 8px;
     max-width: 100%;
     height: auto;
   }
