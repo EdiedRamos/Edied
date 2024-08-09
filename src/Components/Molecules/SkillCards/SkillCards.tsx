@@ -14,7 +14,7 @@ export const SkillCards = () => {
           <Subtitle>{t(`skills.${skill.type}`)}</Subtitle>
           <div className="skill-icons">
             {skill.content.map(({ name, Icon }) => (
-              <div key={name} className="skill-icons__container">
+              <div key={name} className="skill-icons__container" title={name}>
                 <Icon
                   className="skill-icons__icon"
                   aria-label={`${name} icon`}

@@ -29,19 +29,14 @@
       a {
         -webkit-user-drag: none;
         transition: all 400ms;
-        outline: 2px solid $red-700;
-        outline-offset: 3px;
         border-radius: 8px;
-        background-color: $red-700;
-        padding: 5px 8px;
-        min-width: 100px;
         color: $gray-50;
         font-size: $font-size-7;
         text-align: center;
         text-decoration: none;
 
         &:hover {
-          background-color: $gray-shadow-80;
+          color: $gray-400;
         }
       }
     }
@@ -57,7 +52,6 @@
     align-items: center;
     gap: 1.5rem;
     animation: show 500ms backwards;
-    border-radius: 0 0 1rem 1rem;
     background-color: $primary;
     padding: 2rem 0;
     width: 100%;

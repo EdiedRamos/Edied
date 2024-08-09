@@ -4,47 +4,61 @@
 .skill-container {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 1.5rem;
 
   .skill-icons {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 8px;
+    gap: 1rem;
 
     .skill-icons__container {
       $size: 40px;
 
       display: flex;
       flex-direction: column;
+      justify-content: center;
       align-items: center;
       gap: 5px;
+      // outline: 2px solid $red-600;
+      // outline-offset: 3px;
       border-radius: 1rem;
-      background-color: $gray-900;
+      background-color: $secondary;
       padding: 8px;
       width: calc($size * 2);
 
       &:hover .skill-icons__icon {
         animation: dance 1s infinite;
-        color: $gray-900;
+        color: $red-500;
+      }
+
+      &:hover p {
+        color: $gray-100;
       }
 
       &:hover {
         transition: all 500ms;
-        background-color: $red-600;
+        background-color: $primary;
       }
 
       .skill-icons__icon {
-        color: $red-600;
+        color: $gray-100;
         font-size: $size;
       }
 
       p {
-        color: $gray-200;
+        color: $gray-100;
+        font-weight: bold;
         font-size: $font-size-9 * 1.1;
         text-transform: capitalize;
       }
     }
+  }
+}
+
+@media (width >= 768px) {
+  .skill-container {
+    gap: 3rem;
   }
 }
 
