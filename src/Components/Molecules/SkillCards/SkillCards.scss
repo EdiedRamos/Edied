@@ -20,8 +20,6 @@
       justify-content: center;
       align-items: center;
       gap: 5px;
-      // outline: 2px solid $red-600;
-      // outline-offset: 3px;
       border-radius: 1rem;
       background-color: $secondary;
       padding: 8px;
@@ -29,7 +27,7 @@
 
       &:hover .skill-icons__icon {
         animation: dance 1s infinite;
-        color: $red-500;
+        color: $red-600;
       }
 
       &:hover p {
@@ -42,12 +40,12 @@
       }
 
       .skill-icons__icon {
-        color: $gray-100;
+        color: $gray-400;
         font-size: $size;
       }
 
       p {
-        color: $gray-100;
+        color: $gray-300;
         font-weight: bold;
         font-size: $font-size-9 * 1.1;
         text-transform: capitalize;
