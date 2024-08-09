@@ -13,17 +13,15 @@
     align-items: center;
     gap: 8px;
     transition: all 400ms;
-    outline: 2px solid $red-700;
-    outline-offset: 3px;
     border-radius: 8px;
     background-color: $red-700;
-    padding: 5px 8px;
+    padding: 8px 10px;
     color: $gray-50;
     font-size: $font-size-7;
     text-decoration: none;
 
     &:hover {
-      background-color: $gray-shadow-80;
+      background-color: $secondary;
     }
   }
 }

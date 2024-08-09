@@ -71,8 +71,8 @@
       font-size: $font-size-7;
 
       &:hover {
-        transform: scale(0.95);
         cursor: pointer;
+        background-color: $secondary;
       }
 
       &:active {
