@@ -23,5 +23,8 @@
   },
   "contact": {
     "title": "Contact"
+  },
+  "footer": {
+    "made": "Made with 💗 by <span className='footer__made--author'>EdiedRamos</span>"
   }
 }

@@ -10,12 +10,12 @@
     transition: all 0.2s ease-out;
     width: 35px;
     height: 35px;
-    color: $red-500;
+    color: $gray-300;
     font-size: 30px;
 
     &:hover {
       transform: scale(0.9) rotate(-10deg);
-      color: $red-600;
+      color: $gray-600;
     }
 
     &:active {

@@ -1,0 +1,23 @@
+@import "../../../General/Styles/Colors/colors";
+
+.footer {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: $secondary;
+    padding: 2rem;
+    min-height: 300px;
+  }
+
+  &__made {
+    color: $gray-200;
+
+    &--author {
+      color: $gray-100;
+      font-weight: bold;
+    }
+  }
+}

@@ -23,5 +23,8 @@
   },
   "contact": {
     "title": "Contacto"
+  },
+  "footer": {
+    "made": "Hecho con 💗 por <span className='footer__made--author'>EdiedRamos</span>"
   }
 }
