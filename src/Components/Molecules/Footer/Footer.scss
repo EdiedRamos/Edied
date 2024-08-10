@@ -12,6 +12,10 @@
     min-height: 300px;
   }
 
+  &__logo {
+    -webkit-user-drag: none;
+  }
+
   &__made {
     color: $gray-200;
 
