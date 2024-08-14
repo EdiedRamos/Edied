@@ -1,4 +1,9 @@
-import { ImageUpload, MyTaskBoard, NoteCode } from "@/Resources/Projects";
+import {
+  ImageUpload,
+  MyTaskBoard,
+  NoteCode,
+  TranslateApp,
+} from "@/Resources/Projects";
 
 import { Icons } from "@/General/Icons";
 import type { ProjectCardType } from "@/Types";
@@ -81,6 +86,26 @@ export const projectList: ProjectCardType[] = [
       {
         name: "firebase",
         Icon: Icons.firebase,
+      },
+    ],
+  },
+  {
+    title: "Translate App",
+    preview: TranslateApp,
+    repository: "https://github.com/EdiedRamos/translate",
+    deployed: "https://ediedramos.github.io/translate/",
+    techList: [
+      {
+        name: "react",
+        Icon: Icons.react,
+      },
+      {
+        name: "typescript",
+        Icon: Icons.typescript,
+      },
+      {
+        name: "sass",
+        Icon: Icons.sass,
       },
     ],
   },
