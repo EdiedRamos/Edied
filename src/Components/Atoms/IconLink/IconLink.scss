@@ -1,12 +1,13 @@
 @import "/src/General/Styles/Colors/colors";
 
 .icon-link__link {
+  transition: all 250ms;
   border: 2px solid $gray-500;
   border-radius: 8px;
   padding: 10px;
 
   &:hover {
-    background-color: $gray-900;
+    transform: scale(0.95);
   }
 
   &:active {
