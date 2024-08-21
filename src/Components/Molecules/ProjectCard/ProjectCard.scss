@@ -2,7 +2,6 @@
 
 .project-card-container {
   margin: 5px;
-  border: 5px solid $secondary;
   border-radius: 12px;
   background-color: $secondary;
   padding-bottom: 12px;
@@ -24,7 +23,8 @@
   }
 
   &__preview {
-    border-radius: 12px 12px 0 0;
+    margin: 5px;
+    border-radius: 12px;
     height: 250px;
     overflow: hidden;
 
