@@ -37,6 +37,10 @@ const Frontend: Skill[] = [
     Icon: Icons.react,
   },
   {
+    name: "react query",
+    Icon: Icons.reactQuery,
+  },
+  {
     name: "redux",
     Icon: Icons.redux,
   },

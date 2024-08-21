@@ -18,6 +18,7 @@ import {
   SiAxios,
   SiChakraui,
   SiExpress,
+  SiReactquery,
   SiRedux,
   SiStyledcomponents,
   SiTailwindcss,
@@ -53,4 +54,5 @@ export const Icons = {
   burgerMenu: RxHamburgerMenu,
   closeSharp: IoCloseSharp,
   worldIcon: TbWorld,
+  reactQuery: SiReactquery,
 };
