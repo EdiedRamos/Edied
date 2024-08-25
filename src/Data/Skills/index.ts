@@ -64,6 +64,10 @@ const Frontend: Skill[] = [
     name: "chakra-UI",
     Icon: Icons.chakraui,
   },
+  {
+    name: "daisy-UI",
+    Icon: Icons.daisyui,
+  },
 ];
 
 const Backend: Skill[] = [

@@ -17,6 +17,7 @@ import {
 import {
   SiAxios,
   SiChakraui,
+  SiDaisyui,
   SiExpress,
   SiReactquery,
   SiRedux,
@@ -45,6 +46,7 @@ export const Icons = {
   javascript: IoLogoJavascript,
   firebase: IoLogoFirebase,
   chakraui: SiChakraui,
+  daisyui: SiDaisyui,
   express: SiExpress,
   redux: SiRedux,
   styled: SiStyledcomponents,
