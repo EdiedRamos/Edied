@@ -3,6 +3,7 @@ import {
   MyTaskBoard,
   NoteCode,
   TranslateApp,
+  UnsplashCollection,
 } from "@/Resources/Projects";
 
 import { Icons } from "@/General/Icons";
@@ -26,6 +27,34 @@ export const projectList: ProjectCardType[] = [
       {
         name: "tailwind",
         Icon: Icons.tailwind,
+      },
+    ],
+  },
+  {
+    title: "Unsplash Collection",
+    preview: UnsplashCollection,
+    repository: "https://github.com/EdiedRamos/unsplash-collection",
+    deployed: "https://unsplash-collection-peach.vercel.app/",
+    techList: [
+      {
+        name: "nextjs",
+        Icon: Icons.nextjs,
+      },
+      {
+        name: "typescript",
+        Icon: Icons.typescript,
+      },
+      {
+        name: "tailwind",
+        Icon: Icons.tailwind,
+      },
+      {
+        name: "firebase",
+        Icon: Icons.firebase,
+      },
+      {
+        name: "axios",
+        Icon: Icons.axios,
       },
     ],
   },
