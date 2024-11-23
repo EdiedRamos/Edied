@@ -15,6 +15,7 @@
 
   &::before {
     position: absolute;
+    top: 0;
     bottom: 0;
     left: -15px;
     transform: rotate(10deg);
@@ -24,7 +25,7 @@
     outline-offset: 3px;
     border: 2px solid $red-600;
     border-radius: 8px;
-    background-color: $red-600;
+    background-color: $red-700;
     width: 5px;
     height: 100%;
     content: "";
@@ -34,7 +35,7 @@
     $offset: 15px;
     left: -$offset;
     transform: none;
-    background-color: inherit;
+    background-color: $red-600;
     width: calc(100% + (2 * $offset));
   }
 }
