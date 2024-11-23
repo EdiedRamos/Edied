@@ -11,6 +11,7 @@
   margin: 2rem 0;
   color: $gray-100;
   font-size: $font-size-4;
+  user-select: none;
   text-align: center;
 
   &::before {
